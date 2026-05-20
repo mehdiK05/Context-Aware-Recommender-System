@@ -1,0 +1,6 @@
+split,model,used_features,HR@10,NDCG@10,Recall@10,num_eval_groups
+validation,baseline,user_id + movie_id,0.4501061571125265,0.2410205689867373,0.4501061571125265,942
+validation,time,user_id + movie_id + time context,0.43842887473460723,0.2404796411765438,0.43842887473460723,942
+validation,user,user_id + movie_id + user context,0.43524416135881105,0.23979878117833522,0.43524416135881105,942
+validation,movie,user_id + movie_id + movie context,0.45010615711252655,0.2421746731617476,0.45010615711252655,942
+validation,full,user_id + movie_id + time + user + movie context,0.4819532908704883,0.25493305613800776,0.4819532908704883,942
