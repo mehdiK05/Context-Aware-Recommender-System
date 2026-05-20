@@ -1,0 +1,943 @@
+eval_group_id,user_idx,true_movie_idx,true_movie_title,true_movie_rank,hit_at_10,ndcg_at_10,recall_at_10,time_of_day,age_group,top_genre
+0,0,255,When the Cats Away (Chacun cherche son chat) (1996),40,0.0,0.0,0.0,night,18_24,Comedy
+1,1,315,As Good As It Gets (1997),13,0.0,0.0,0.0,night,45_54,Comedy
+2,2,180,Return of the Jedi (1983),0,1.0,1.0,1.0,night,18_24,Action
+3,3,10,Seven (Se7en) (1995),12,0.0,0.0,0.0,night,18_24,Crime
+4,4,23,Rumble in the Bronx (1995),11,0.0,0.0,0.0,evening,25_34,Action
+5,5,271,Good Will Hunting (1997),4,1.0,0.38685280723454163,1.0,morning,35_44,Drama
+6,6,356,One Flew Over the Cuckoo's Nest (1975),0,1.0,1.0,1.0,afternoon,55_plus,Drama
+7,7,226,Star Trek VI: The Undiscovered Country (1991),15,0.0,0.0,0.0,evening,35_44,Action
+8,8,482,Casablanca (1942),14,0.0,0.0,0.0,afternoon,25_34,Drama
+9,9,339,Boogie Nights (1997),5,1.0,0.3562071871080222,1.0,morning,45_54,Drama
+10,10,50,Legends of the Fall (1994),9,1.0,0.2890648263178879,1.0,night,35_44,Drama
+11,11,237,Raising Arizona (1987),3,1.0,0.43067655807339306,1.0,afternoon,25_34,Comedy
+12,12,915,Lost in Space (1998),39,0.0,0.0,0.0,night,45_54,Action
+13,13,268,"Full Monty, The (1997)",3,1.0,0.43067655807339306,1.0,evening,45_54,Comedy
+14,14,933,"Preacher's Wife, The (1996)",21,0.0,0.0,0.0,evening,45_54,Drama
+15,15,151,Sleeper (1973),20,0.0,0.0,0.0,evening,18_24,Comedy
+16,16,150,Willy Wonka and the Chocolate Factory (1971),0,1.0,1.0,1.0,morning,25_34,Adventure
+17,17,58,Three Colors: Red (1994),5,1.0,0.3562071871080222,1.0,afternoon,35_44,Drama
+18,18,210,M*A*S*H (1970),2,1.0,0.5,1.0,evening,35_44,Comedy
+19,19,86,Searching for Bobby Fischer (1993),16,0.0,0.0,0.0,morning,35_44,Drama
+20,20,674,"Nosferatu (Nosferatu, eine Symphonie des Grauens) (1922)",36,0.0,0.0,0.0,evening,25_34,Horror
+21,21,249,"Fifth Element, The (1997)",3,1.0,0.43067655807339306,1.0,morning,25_34,Action
+22,22,693,Persuasion (1995),17,0.0,0.0,0.0,evening,25_34,Romance
+23,23,654,Stand by Me (1986),0,1.0,1.0,1.0,night,18_24,Adventure
+24,24,203,Back to the Future (1985),1,1.0,0.6309297535714575,1.0,evening,35_44,Comedy
+25,25,1011,Private Parts (1997),17,0.0,0.0,0.0,night,45_54,Comedy
+26,26,369,Mary Reilly (1996),62,0.0,0.0,0.0,evening,35_44,Drama
+27,27,222,Sling Blade (1996),7,1.0,0.31546487678572877,1.0,evening,25_34,Drama
+28,28,179,Apocalypse Now (1979),5,1.0,0.3562071871080222,1.0,evening,35_44,Drama
+29,29,537,Anastasia (1997),25,0.0,0.0,0.0,evening,under_18,Animation
+30,30,610,Laura (1944),60,0.0,0.0,0.0,night,18_24,Crime
+31,31,627,Sleepers (1996),11,0.0,0.0,0.0,morning,25_34,Crime
+32,32,347,Desperate Measures (1998),35,0.0,0.0,0.0,afternoon,18_24,Crime
+33,33,898,"Winter Guest, The (1997)",58,0.0,0.0,0.0,evening,35_44,Drama
+34,34,936,"Thousand Acres, A (1997)",44,0.0,0.0,0.0,afternoon,18_24,Drama
+35,35,260,Air Bud (1997),13,0.0,0.0,0.0,night,18_24,Children's
+36,36,171,"Empire Strikes Back, The (1980)",0,1.0,1.0,1.0,evening,18_24,Action
+37,37,451,Jaws 2 (1978),55,0.0,0.0,0.0,night,25_34,Action
+38,38,287,Scream (1996),4,1.0,0.38685280723454163,1.0,night,35_44,Horror
+39,39,753,Red Corner (1997),39,0.0,0.0,0.0,evening,35_44,Crime
+40,40,429,Duck Soup (1933),11,0.0,0.0,0.0,evening,25_34,Comedy
+41,41,844,That Thing You Do! (1996),7,1.0,0.31546487678572877,1.0,night,25_34,Comedy
+42,42,315,As Good As It Gets (1997),15,0.0,0.0,0.0,night,25_34,Comedy
+43,43,182,Alien (1979),0,1.0,1.0,1.0,night,25_34,Action
+44,44,819,Space Jam (1996),26,0.0,0.0,0.0,evening,25_34,Adventure
+45,45,124,Phenomenon (1996),8,1.0,0.3010299956639812,1.0,night,25_34,Drama
+46,46,326,Cop Land (1997),10,0.0,0.0,0.0,afternoon,45_54,Crime
+47,47,301,L.A. Confidential (1997),2,1.0,0.5,1.0,afternoon,45_54,Crime
+48,48,517,Miller's Crossing (1990),19,0.0,0.0,0.0,afternoon,18_24,Drama
+49,49,122,"Frighteners, The (1996)",18,0.0,0.0,0.0,night,18_24,Comedy
+50,50,82,Much Ado About Nothing (1993),8,1.0,0.3010299956639812,1.0,afternoon,25_34,Comedy
+51,51,190,Amadeus (1984),6,1.0,0.3333333333333333,1.0,night,18_24,Drama
+52,52,1086,Bloodsport 2 (1995),87,0.0,0.0,0.0,afternoon,25_34,Action
+53,53,297,Face/Off (1997),3,1.0,0.43067655807339306,1.0,night,18_24,Action
+54,54,78,"Fugitive, The (1993)",1,1.0,0.6309297535714575,1.0,night,35_44,Action
+55,55,409,Kingpin (1996),18,0.0,0.0,0.0,afternoon,25_34,Comedy
+56,56,198,"Bridge on the River Kwai, The (1957)",30,0.0,0.0,0.0,night,under_18,Drama
+57,57,190,Amadeus (1984),2,1.0,0.5,1.0,morning,25_34,Drama
+58,58,322,Dante's Peak (1997),13,0.0,0.0,0.0,night,45_54,Action
+59,59,271,Good Will Hunting (1997),3,1.0,0.43067655807339306,1.0,afternoon,45_54,Drama
+60,60,346,Wag the Dog (1997),16,0.0,0.0,0.0,afternoon,35_44,Comedy
+61,61,1129,Jupiter's Wife (1994),95,0.0,0.0,0.0,night,25_34,Documentary
+62,62,299,Air Force One (1997),3,1.0,0.43067655807339306,1.0,night,25_34,Action
+63,63,650,Glory (1989),1,1.0,0.6309297535714575,1.0,evening,25_34,Action
+64,64,184,Psycho (1960),2,1.0,0.5,1.0,night,45_54,Horror
+65,65,248,Austin Powers: International Man of Mystery (1997),10,0.0,0.0,0.0,evening,18_24,Comedy
+66,66,116,"Rock, The (1996)",0,1.0,1.0,1.0,afternoon,under_18,Action
+67,67,177,12 Angry Men (1957),22,0.0,0.0,0.0,night,18_24,Drama
+68,68,11,"Usual Suspects, The (1995)",0,1.0,1.0,1.0,night,18_24,Crime
+69,69,407,"Close Shave, A (1995)",2,1.0,0.5,1.0,morning,25_34,Animation
+70,70,196,"Graduate, The (1967)",1,1.0,0.6309297535714575,1.0,morning,35_44,Drama
+71,71,197,Nikita (La Femme Nikita) (1990),7,1.0,0.31546487678572877,1.0,afternoon,45_54,Thriller
+72,72,284,Secrets & Lies (1996),5,1.0,0.3562071871080222,1.0,evening,18_24,Drama
+73,73,507,"People vs. Larry Flynt, The (1996)",10,0.0,0.0,0.0,afternoon,35_44,Drama
+74,74,195,Dead Poets Society (1989),9,1.0,0.2890648263178879,1.0,night,18_24,Drama
+75,75,954,Before Sunrise (1995),39,0.0,0.0,0.0,morning,18_24,Drama
+76,76,51,"Madness of King George, The (1994)",19,0.0,0.0,0.0,night,25_34,Drama
+77,77,236,Jerry Maguire (1996),1,1.0,0.6309297535714575,1.0,evening,25_34,Drama
+78,78,6,Twelve Monkeys (1995),5,1.0,0.3562071871080222,1.0,afternoon,35_44,Drama
+79,79,236,Jerry Maguire (1996),0,1.0,1.0,1.0,evening,25_34,Drama
+80,80,2,Four Rooms (1995),9,1.0,0.2890648263178879,1.0,afternoon,18_24,Thriller
+81,81,309,"Rainmaker, The (1997)",3,1.0,0.43067655807339306,1.0,afternoon,45_54,Drama
+82,82,297,Face/Off (1997),5,1.0,0.3562071871080222,1.0,afternoon,35_44,Action
+83,83,384,True Lies (1994),9,1.0,0.2890648263178879,1.0,night,25_34,Action
+84,84,181,GoodFellas (1990),6,1.0,0.3333333333333333,1.0,evening,45_54,Crime
+85,85,682,Rocket Man (1997),40,0.0,0.0,0.0,morning,25_34,Comedy
+86,86,1188,Prefontaine (1997),73,0.0,0.0,0.0,evening,45_54,Drama
+87,87,325,G.I. Jane (1997),16,0.0,0.0,0.0,evening,45_54,Action
+88,88,186,"Godfather: Part II, The (1974)",13,0.0,0.0,0.0,evening,35_44,Action
+89,89,384,True Lies (1994),13,0.0,0.0,0.0,night,55_plus,Action
+90,90,229,Star Trek IV: The Voyage Home (1986),5,1.0,0.3562071871080222,1.0,afternoon,55_plus,Action
+91,91,306,"Devil's Advocate, The (1997)",6,1.0,0.3333333333333333,1.0,afternoon,25_34,Crime
+92,92,234,Mars Attacks! (1996),7,1.0,0.31546487678572877,1.0,evening,45_54,Action
+93,93,689,Seven Years in Tibet (1997),5,1.0,0.3562071871080222,1.0,morning,25_34,Drama
+94,94,444,"Body Snatcher, The (1945)",39,0.0,0.0,0.0,evening,25_34,Horror
+95,95,1231,Madonna: Truth or Dare (1991),86,0.0,0.0,0.0,night,25_34,Documentary
+96,96,433,Forbidden Planet (1956),22,0.0,0.0,0.0,morning,35_44,Sci-Fi
+97,97,24,"Birdcage, The (1996)",7,1.0,0.31546487678572877,1.0,night,45_54,Comedy
+98,98,432,Heathers (1989),12,0.0,0.0,0.0,afternoon,18_24,Comedy
+99,99,271,Good Will Hunting (1997),4,1.0,0.38685280723454163,1.0,evening,35_44,Drama
+100,100,865,Michael (1996),25,0.0,0.0,0.0,night,under_18,Comedy
+101,101,201,Groundhog Day (1993),3,1.0,0.43067655807339306,1.0,afternoon,35_44,Comedy
+102,102,95,Terminator 2: Judgment Day (1991),2,1.0,0.5,1.0,night,25_34,Action
+103,103,49,Star Wars (1977),0,1.0,1.0,1.0,night,25_34,Action
+104,104,326,Cop Land (1997),5,1.0,0.3562071871080222,1.0,evening,18_24,Crime
+105,105,312,Titanic (1997),1,1.0,0.6309297535714575,1.0,evening,55_plus,Action
+106,106,311,Midnight in the Garden of Good and Evil (1997),30,0.0,0.0,0.0,afternoon,35_44,Comedy
+107,107,289,Fierce Creatures (1997),20,0.0,0.0,0.0,evening,35_44,Comedy
+108,108,1156,"Relic, The (1997)",55,0.0,0.0,0.0,evening,25_34,Horror
+109,109,93,Home Alone (1990),19,0.0,0.0,0.0,night,18_24,Children's
+110,110,285,"English Patient, The (1996)",0,1.0,1.0,1.0,morning,55_plus,Drama
+111,111,338,Mad City (1997),28,0.0,0.0,0.0,night,25_34,Action
+112,112,974,Fear (1996),29,0.0,0.0,0.0,night,45_54,Thriller
+113,113,521,Down by Law (1986),23,0.0,0.0,0.0,morning,25_34,Comedy
+114,114,177,12 Angry Men (1957),12,0.0,0.0,0.0,evening,25_34,Drama
+115,115,343,"Apostle, The (1997)",24,0.0,0.0,0.0,night,35_44,Drama
+116,116,297,Face/Off (1997),0,1.0,1.0,1.0,evening,18_24,Action
+117,117,1078,Joe's Apartment (1996),59,0.0,0.0,0.0,evening,18_24,Comedy
+118,118,916,Mercury Rising (1998),55,0.0,0.0,0.0,afternoon,25_34,Action
+119,119,404,Mission: Impossible (1996),4,1.0,0.38685280723454163,1.0,night,45_54,Action
+120,120,716,"Juror, The (1996)",37,0.0,0.0,0.0,night,45_54,Drama
+121,121,1043,"Paper, The (1994)",29,0.0,0.0,0.0,afternoon,25_34,Comedy
+122,122,275,Leaving Las Vegas (1995),2,1.0,0.5,1.0,afternoon,45_54,Drama
+123,123,194,"Terminator, The (1984)",1,1.0,0.6309297535714575,1.0,afternoon,25_34,Action
+124,124,157,Weekend at Bernie's (1989),52,0.0,0.0,0.0,evening,25_34,Comedy
+125,125,880,Money Talks (1997),47,0.0,0.0,0.0,night,25_34,Action
+126,126,61,Stargate (1994),9,1.0,0.2890648263178879,1.0,afternoon,25_34,Action
+127,127,87,Sleepless in Seattle (1993),2,1.0,0.5,1.0,evening,18_24,Comedy
+128,128,905,Oscar & Lucinda (1997),54,0.0,0.0,0.0,afternoon,35_44,Drama
+129,129,668,Body Parts (1991),83,0.0,0.0,0.0,evening,18_24,Horror
+130,130,535,Ponette (1996),56,0.0,0.0,0.0,evening,55_plus,Drama
+131,131,663,"Paris, Texas (1984)",20,0.0,0.0,0.0,afternoon,18_24,Drama
+132,132,315,As Good As It Gets (1997),7,1.0,0.31546487678572877,1.0,afternoon,45_54,Comedy
+133,133,0,Toy Story (1995),3,1.0,0.43067655807339306,1.0,night,25_34,Animation
+134,134,76,"Firm, The (1993)",16,0.0,0.0,0.0,afternoon,18_24,Drama
+135,135,524,"Big Sleep, The (1946)",3,1.0,0.43067655807339306,1.0,night,45_54,Film-Noir
+136,136,260,Air Bud (1997),51,0.0,0.0,0.0,afternoon,45_54,Children's
+137,137,601,"American in Paris, An (1951)",23,0.0,0.0,0.0,evening,45_54,Musical
+138,138,126,"Godfather, The (1972)",0,1.0,1.0,1.0,evening,18_24,Action
+139,139,879,Soul Food (1997),31,0.0,0.0,0.0,evening,25_34,Drama
+140,140,299,Air Force One (1997),1,1.0,0.6309297535714575,1.0,night,45_54,Action
+141,141,41,Clerks (1994),4,1.0,0.38685280723454163,1.0,night,under_18,Comedy
+142,142,324,Crash (1996),36,0.0,0.0,0.0,morning,35_44,Drama
+143,143,479,North by Northwest (1959),3,1.0,0.43067655807339306,1.0,night,45_54,Comedy
+144,144,353,"Wedding Singer, The (1998)",23,0.0,0.0,0.0,morning,25_34,Comedy
+145,145,335,Playing God (1997),56,0.0,0.0,0.0,evening,45_54,Crime
+146,146,300,In & Out (1997),11,0.0,0.0,0.0,evening,35_44,Comedy
+147,147,992,Hercules (1997),31,0.0,0.0,0.0,night,25_34,Adventure
+148,148,339,Boogie Nights (1997),7,1.0,0.31546487678572877,1.0,evening,35_44,Drama
+149,149,409,Kingpin (1996),9,1.0,0.2890648263178879,1.0,afternoon,18_24,Comedy
+150,150,965,"Affair to Remember, An (1957)",11,0.0,0.0,0.0,evening,35_44,Romance
+151,151,271,Good Will Hunting (1997),0,1.0,1.0,1.0,afternoon,25_34,Drama
+152,152,257,Contact (1997),0,1.0,1.0,1.0,night,25_34,Drama
+153,153,186,"Godfather: Part II, The (1974)",0,1.0,1.0,1.0,morning,25_34,Action
+154,154,305,"Mrs. Brown (Her Majesty, Mrs. Brown) (1997)",22,0.0,0.0,0.0,evening,25_34,Drama
+155,155,509,"Magnificent Seven, The (1954)",7,1.0,0.31546487678572877,1.0,evening,25_34,Action
+156,156,406,Spy Hard (1996),57,0.0,0.0,0.0,evening,55_plus,Comedy
+157,157,289,Fierce Creatures (1997),14,0.0,0.0,0.0,afternoon,45_54,Comedy
+158,158,258,George of the Jungle (1997),6,1.0,0.3333333333333333,1.0,afternoon,18_24,Children's
+159,159,301,L.A. Confidential (1997),1,1.0,0.6309297535714575,1.0,evening,25_34,Crime
+160,160,68,Forrest Gump (1994),3,1.0,0.43067655807339306,1.0,morning,45_54,Comedy
+161,161,709,Better Off Dead... (1985),26,0.0,0.0,0.0,evening,25_34,Comedy
+162,162,97,"Silence of the Lambs, The (1991)",0,1.0,1.0,1.0,night,45_54,Drama
+163,163,933,"Preacher's Wife, The (1996)",14,0.0,0.0,0.0,night,45_54,Drama
+164,164,431,Fantasia (1940),3,1.0,0.43067655807339306,1.0,afternoon,18_24,Animation
+165,165,893,Home Alone 3 (1997),61,0.0,0.0,0.0,morning,45_54,Children's
+166,166,529,"Man Who Would Be King, The (1975)",14,0.0,0.0,0.0,afternoon,35_44,Adventure
+167,167,224,101 Dalmatians (1996),32,0.0,0.0,0.0,evening,45_54,Children's
+168,168,442,"Birds, The (1963)",11,0.0,0.0,0.0,afternoon,45_54,Horror
+169,169,748,"MatchMaker, The (1997)",29,0.0,0.0,0.0,afternoon,45_54,Comedy
+170,170,271,Good Will Hunting (1997),1,1.0,0.6309297535714575,1.0,evening,45_54,Drama
+171,171,581,"Piano, The (1993)",8,1.0,0.3010299956639812,1.0,afternoon,55_plus,Drama
+172,172,291,Rosewood (1997),13,0.0,0.0,0.0,evening,55_plus,Drama
+173,173,237,Raising Arizona (1987),1,1.0,0.6309297535714575,1.0,evening,25_34,Comedy
+174,174,87,Sleepless in Seattle (1993),10,0.0,0.0,0.0,afternoon,25_34,Comedy
+175,175,457,Nixon (1995),24,0.0,0.0,0.0,night,25_34,Drama
+176,176,91,True Romance (1993),6,1.0,0.3333333333333333,1.0,night,18_24,Action
+177,177,341,"Man Who Knew Too Little, The (1997)",22,0.0,0.0,0.0,evening,25_34,Comedy
+178,178,300,In & Out (1997),5,1.0,0.3562071871080222,1.0,evening,under_18,Comedy
+179,179,97,"Silence of the Lambs, The (1991)",0,1.0,1.0,1.0,evening,18_24,Drama
+180,180,973,Eye for an Eye (1996),39,0.0,0.0,0.0,night,25_34,Drama
+181,181,110,"Truth About Cats & Dogs, The (1996)",9,1.0,0.2890648263178879,1.0,night,35_44,Comedy
+182,182,221,Star Trek: First Contact (1996),0,1.0,1.0,1.0,evening,25_34,Action
+183,183,487,Sunset Blvd. (1950),16,0.0,0.0,0.0,evening,35_44,Film-Noir
+184,184,286,Marvin's Room (1996),9,1.0,0.2890648263178879,1.0,night,45_54,Drama
+185,185,97,"Silence of the Lambs, The (1991)",0,1.0,1.0,1.0,evening,35_44,Drama
+186,186,461,Like Water For Chocolate (Como agua para chocolate) (1992),7,1.0,0.31546487678572877,1.0,night,25_34,Drama
+187,187,454,Jackie Chan's First Strike (1996),12,0.0,0.0,0.0,night,35_44,Action
+188,188,149,Swingers (1996),5,1.0,0.3562071871080222,1.0,evening,25_34,Comedy
+189,189,404,Mission: Impossible (1996),3,1.0,0.43067655807339306,1.0,afternoon,25_34,Action
+190,190,85,"Remains of the Day, The (1993)",12,0.0,0.0,0.0,night,25_34,Drama
+191,191,1060,"Evening Star, The (1996)",49,0.0,0.0,0.0,night,35_44,Comedy
+192,192,365,Dangerous Minds (1995),37,0.0,0.0,0.0,evening,25_34,Drama
+193,193,736,Sirens (1994),34,0.0,0.0,0.0,night,35_44,Comedy
+194,194,420,William Shakespeare's Romeo and Juliet (1996),23,0.0,0.0,0.0,morning,35_44,Drama
+195,195,1117,Up in Smoke (1978),38,0.0,0.0,0.0,afternoon,45_54,Comedy
+196,196,553,Waterworld (1995),25,0.0,0.0,0.0,morning,55_plus,Action
+197,197,941,What's Love Got to Do with It (1993),23,0.0,0.0,0.0,evening,18_24,Drama
+198,198,13,"Postino, Il (1994)",10,0.0,0.0,0.0,night,25_34,Drama
+199,199,830,Escape from L.A. (1996),7,1.0,0.31546487678572877,1.0,night,35_44,Action
+200,200,226,Star Trek VI: The Undiscovered Country (1991),10,0.0,0.0,0.0,night,25_34,Action
+201,201,483,"Maltese Falcon, The (1941)",1,1.0,0.6309297535714575,1.0,night,35_44,Film-Noir
+202,202,92,Welcome to the Dollhouse (1995),15,0.0,0.0,0.0,morning,25_34,Comedy
+203,203,296,Ulee's Gold (1997),13,0.0,0.0,0.0,night,45_54,Drama
+204,204,747,"Saint, The (1997)",16,0.0,0.0,0.0,night,45_54,Action
+205,205,301,L.A. Confidential (1997),1,1.0,0.6309297535714575,1.0,evening,under_18,Crime
+206,206,301,L.A. Confidential (1997),2,1.0,0.5,1.0,morning,35_44,Crime
+207,207,738,Pretty Woman (1990),16,0.0,0.0,0.0,night,35_44,Comedy
+208,208,241,Kolya (1996),18,0.0,0.0,0.0,afternoon,25_34,Comedy
+209,209,93,Home Alone (1990),17,0.0,0.0,0.0,evening,35_44,Children's
+210,210,116,"Rock, The (1996)",3,1.0,0.43067655807339306,1.0,evening,55_plus,Action
+211,211,510,Lawrence of Arabia (1962),2,1.0,0.5,1.0,night,45_54,Adventure
+212,212,30,Crimson Tide (1995),8,1.0,0.3010299956639812,1.0,night,25_34,Drama
+213,213,97,"Silence of the Lambs, The (1991)",2,1.0,0.5,1.0,evening,25_34,Drama
+214,214,225,Die Hard 2 (1990),13,0.0,0.0,0.0,afternoon,35_44,Action
+215,215,215,When Harry Met Sally... (1989),0,1.0,1.0,1.0,morning,18_24,Comedy
+216,216,390,Last Action Hero (1993),34,0.0,0.0,0.0,night,18_24,Action
+217,217,202,Unforgiven (1992),2,1.0,0.5,1.0,night,35_44,Western
+218,218,905,Oscar & Lucinda (1997),68,0.0,0.0,0.0,afternoon,25_34,Drama
+219,219,297,Face/Off (1997),3,1.0,0.43067655807339306,1.0,night,25_34,Action
+220,220,750,Tomorrow Never Dies (1997),2,1.0,0.5,1.0,night,18_24,Action
+221,221,1225,Night Falls on Manhattan (1997),33,0.0,0.0,0.0,morning,25_34,Crime
+222,222,154,Dirty Dancing (1987),22,0.0,0.0,0.0,evening,18_24,Musical
+223,223,238,Sneakers (1992),7,1.0,0.31546487678572877,1.0,night,25_34,Crime
+224,224,603,It Happened One Night (1934),28,0.0,0.0,0.0,evening,45_54,Comedy
+225,225,249,"Fifth Element, The (1997)",7,1.0,0.31546487678572877,1.0,morning,25_34,Action
+226,226,1007,I Shot Andy Warhol (1996),21,0.0,0.0,0.0,night,45_54,Drama
+227,227,811,Andre (1994),38,0.0,0.0,0.0,evening,18_24,Adventure
+228,228,881,Washington Square (1997),39,0.0,0.0,0.0,evening,25_34,Drama
+229,229,99,Fargo (1996),0,1.0,1.0,1.0,evening,25_34,Crime
+230,230,845,To Gillian on Her 37th Birthday (1996),50,0.0,0.0,0.0,evening,45_54,Drama
+231,231,3,Get Shorty (1995),5,1.0,0.3562071871080222,1.0,night,45_54,Action
+232,232,312,Titanic (1997),2,1.0,0.5,1.0,night,35_44,Action
+233,233,151,Sleeper (1973),13,0.0,0.0,0.0,afternoon,55_plus,Comedy
+234,234,51,"Madness of King George, The (1994)",12,0.0,0.0,0.0,evening,35_44,Drama
+235,235,78,"Fugitive, The (1993)",2,1.0,0.5,1.0,morning,35_44,Action
+236,236,173,Raiders of the Lost Ark (1981),0,1.0,1.0,1.0,night,45_54,Action
+237,237,457,Nixon (1995),38,0.0,0.0,0.0,afternoon,35_44,Drama
+238,238,268,"Full Monty, The (1997)",0,1.0,1.0,1.0,morning,35_44,Comedy
+239,239,244,"Devil's Own, The (1997)",19,0.0,0.0,0.0,night,18_24,Action
+240,240,291,Rosewood (1997),23,0.0,0.0,0.0,night,25_34,Drama
+241,241,267,Chasing Amy (1997),9,1.0,0.2890648263178879,1.0,night,25_34,Drama
+242,242,7,Babe (1995),6,1.0,0.3333333333333333,1.0,night,25_34,Children's
+243,243,1056,"Pallbearer, The (1996)",65,0.0,0.0,0.0,morning,25_34,Comedy
+244,244,257,Contact (1997),0,1.0,1.0,1.0,afternoon,18_24,Drama
+245,245,815,Candyman: Farewell to the Flesh (1995),61,0.0,0.0,0.0,night,18_24,Horror
+246,246,257,Contact (1997),0,1.0,1.0,1.0,evening,25_34,Drama
+247,247,404,Mission: Impossible (1996),1,1.0,0.6309297535714575,1.0,afternoon,25_34,Action
+248,248,215,When Harry Met Sally... (1989),2,1.0,0.5,1.0,night,25_34,Comedy
+249,249,1013,Romy and Michele's High School Reunion (1997),22,0.0,0.0,0.0,evening,25_34,Comedy
+250,250,24,"Birdcage, The (1996)",2,1.0,0.5,1.0,evening,25_34,Comedy
+251,251,123,Lone Star (1996),0,1.0,1.0,1.0,evening,35_44,Drama
+252,252,3,Get Shorty (1995),6,1.0,0.3333333333333333,1.0,evening,25_34,Action
+253,253,257,Contact (1997),0,1.0,1.0,1.0,morning,35_44,Drama
+254,254,762,Happy Gilmore (1996),5,1.0,0.3562071871080222,1.0,morning,18_24,Comedy
+255,255,795,Speechless (1994),30,0.0,0.0,0.0,morning,35_44,Comedy
+256,256,344,Deconstructing Harry (1997),14,0.0,0.0,0.0,night,under_18,Comedy
+257,257,872,Picture Perfect (1997),22,0.0,0.0,0.0,night,18_24,Comedy
+258,258,38,Strange Days (1995),12,0.0,0.0,0.0,night,18_24,Action
+259,259,321,Murder at 1600 (1997),18,0.0,0.0,0.0,night,35_44,Mystery
+260,260,124,Phenomenon (1996),5,1.0,0.3562071871080222,1.0,night,25_34,Drama
+261,261,178,"Clockwork Orange, A (1971)",11,0.0,0.0,0.0,evening,18_24,Sci-Fi
+262,262,49,Star Wars (1977),0,1.0,1.0,1.0,night,35_44,Action
+263,263,1008,Stealing Beauty (1996),28,0.0,0.0,0.0,night,35_44,Drama
+264,264,272,Heat (1995),0,1.0,1.0,1.0,night,25_34,Action
+265,265,8,Dead Man Walking (1995),4,1.0,0.38685280723454163,1.0,night,55_plus,Drama
+266,266,180,Return of the Jedi (1983),0,1.0,1.0,1.0,morning,18_24,Action
+267,267,177,12 Angry Men (1957),4,1.0,0.38685280723454163,1.0,evening,18_24,Drama
+268,268,1016,Trees Lounge (1996),31,0.0,0.0,0.0,afternoon,25_34,Drama
+269,269,859,"Believers, The (1987)",66,0.0,0.0,0.0,night,18_24,Horror
+270,270,247,Grosse Pointe Blank (1997),5,1.0,0.3562071871080222,1.0,evening,45_54,Comedy
+271,271,192,"Right Stuff, The (1983)",3,1.0,0.43067655807339306,1.0,evening,25_34,Drama
+272,272,315,As Good As It Gets (1997),3,1.0,0.43067655807339306,1.0,evening,45_54,Comedy
+273,273,87,Sleepless in Seattle (1993),1,1.0,0.6309297535714575,1.0,night,18_24,Comedy
+274,274,422,E.T. the Extra-Terrestrial (1982),0,1.0,1.0,1.0,evening,35_44,Children's
+275,275,914,Primary Colors (1998),57,0.0,0.0,0.0,night,18_24,Drama
+276,276,301,L.A. Confidential (1997),2,1.0,0.5,1.0,evening,35_44,Crime
+277,277,172,"Princess Bride, The (1987)",2,1.0,0.5,1.0,evening,35_44,Action
+278,278,268,"Full Monty, The (1997)",10,0.0,0.0,0.0,night,25_34,Comedy
+279,279,384,True Lies (1994),1,1.0,0.6309297535714575,1.0,afternoon,25_34,Action
+280,280,321,Murder at 1600 (1997),14,0.0,0.0,0.0,night,under_18,Mystery
+281,281,342,Alien: Resurrection (1997),16,0.0,0.0,0.0,evening,18_24,Action
+282,282,432,Heathers (1989),5,1.0,0.3562071871080222,1.0,night,25_34,Comedy
+283,283,314,Apt Pupil (1998),7,1.0,0.31546487678572877,1.0,evening,35_44,Drama
+284,284,204,Patton (1970),11,0.0,0.0,0.0,evening,25_34,Drama
+285,285,1059,"Adventures of Pinocchio, The (1996)",43,0.0,0.0,0.0,evening,25_34,Adventure
+286,286,290,Absolute Power (1997),7,1.0,0.31546487678572877,1.0,evening,18_24,Mystery
+287,287,434,Butch Cassidy and the Sundance Kid (1969),4,1.0,0.38685280723454163,1.0,night,25_34,Action
+288,288,454,Jackie Chan's First Strike (1996),4,1.0,0.38685280723454163,1.0,night,under_18,Action
+289,289,119,Striptease (1996),49,0.0,0.0,0.0,afternoon,35_44,Comedy
+290,290,495,It's a Wonderful Life (1946),11,0.0,0.0,0.0,morning,18_24,Drama
+291,291,1,GoldenEye (1995),20,0.0,0.0,0.0,night,35_44,Action
+292,292,415,Old Yeller (1957),13,0.0,0.0,0.0,morning,18_24,Children's
+293,293,901,"Big Lebowski, The (1998)",26,0.0,0.0,0.0,night,25_34,Comedy
+294,294,460,Smoke (1995),20,0.0,0.0,0.0,evening,25_34,Drama
+295,295,208,This Is Spinal Tap (1984),5,1.0,0.3562071871080222,1.0,evening,35_44,Comedy
+296,296,751,"Replacement Killers, The (1998)",52,0.0,0.0,0.0,morning,25_34,Action
+297,297,819,Space Jam (1996),31,0.0,0.0,0.0,afternoon,35_44,Adventure
+298,298,914,Primary Colors (1998),71,0.0,0.0,0.0,night,25_34,Drama
+299,299,1011,Private Parts (1997),19,0.0,0.0,0.0,evening,25_34,Comedy
+300,300,718,Canadian Bacon (1994),60,0.0,0.0,0.0,morning,18_24,Comedy
+301,301,270,Starship Troopers (1997),11,0.0,0.0,0.0,afternoon,35_44,Action
+302,302,248,Austin Powers: International Man of Mystery (1997),13,0.0,0.0,0.0,evening,18_24,Comedy
+303,303,273,Sabrina (1995),9,1.0,0.2890648263178879,1.0,afternoon,18_24,Comedy
+304,304,777,Don Juan DeMarco (1995),16,0.0,0.0,0.0,morning,18_24,Comedy
+305,305,1513,Dream With the Fishes (1997),69,0.0,0.0,0.0,afternoon,45_54,Drama
+306,306,312,Titanic (1997),2,1.0,0.5,1.0,evening,25_34,Action
+307,307,121,"Cable Guy, The (1996)",47,0.0,0.0,0.0,evening,55_plus,Comedy
+308,308,318,Everyone Says I Love You (1996),14,0.0,0.0,0.0,evening,35_44,Comedy
+309,309,256,Men in Black (1997),5,1.0,0.3562071871080222,1.0,afternoon,35_44,Action
+310,310,8,Dead Man Walking (1995),1,1.0,0.6309297535714575,1.0,afternoon,25_34,Drama
+311,311,834,"Gay Divorcee, The (1934)",22,0.0,0.0,0.0,afternoon,45_54,Comedy
+312,312,1209,Virtuosity (1995),39,0.0,0.0,0.0,evening,35_44,Sci-Fi
+313,313,1144,Blue Chips (1994),85,0.0,0.0,0.0,evening,18_24,Drama
+314,314,304,"Ice Storm, The (1997)",17,0.0,0.0,0.0,night,25_34,Drama
+315,315,581,"Piano, The (1993)",8,1.0,0.3010299956639812,1.0,night,35_44,Drama
+316,316,259,Event Horizon (1997),6,1.0,0.3333333333333333,1.0,afternoon,18_24,Action
+317,317,157,Weekend at Bernie's (1989),46,0.0,0.0,0.0,morning,55_plus,Comedy
+318,318,879,Soul Food (1997),32,0.0,0.0,0.0,evening,35_44,Drama
+319,319,249,"Fifth Element, The (1997)",0,1.0,1.0,1.0,night,18_24,Action
+320,320,427,Harold and Maude (1971),2,1.0,0.5,1.0,afternoon,45_54,Comedy
+321,321,527,"Killing Fields, The (1984)",10,0.0,0.0,0.0,evening,18_24,Drama
+322,322,63,"Shawshank Redemption, The (1994)",0,1.0,1.0,1.0,afternoon,18_24,Drama
+323,323,845,To Gillian on Her 37th Birthday (1996),46,0.0,0.0,0.0,evening,18_24,Drama
+324,324,385,Addams Family Values (1993),41,0.0,0.0,0.0,night,45_54,Comedy
+325,325,444,"Body Snatcher, The (1945)",19,0.0,0.0,0.0,evening,35_44,Horror
+326,326,434,Butch Cassidy and the Sundance Kid (1969),5,1.0,0.3562071871080222,1.0,afternoon,18_24,Action
+327,327,1482,"Man in the Iron Mask, The (1998)",40,0.0,0.0,0.0,evening,45_54,Action
+328,328,650,Glory (1989),4,1.0,0.38685280723454163,1.0,night,45_54,Action
+329,329,214,Field of Dreams (1989),8,1.0,0.3010299956639812,1.0,morning,35_44,Drama
+330,330,267,Chasing Amy (1997),7,1.0,0.31546487678572877,1.0,afternoon,25_34,Drama
+331,331,727,Junior (1994),16,0.0,0.0,0.0,night,18_24,Comedy
+332,332,99,Fargo (1996),0,1.0,1.0,1.0,night,45_54,Crime
+333,333,1524,"Object of My Affection, The (1998)",91,0.0,0.0,0.0,afternoon,25_34,Comedy
+334,334,321,Murder at 1600 (1997),11,0.0,0.0,0.0,night,45_54,Mystery
+335,335,120,Independence Day (ID4) (1996),6,1.0,0.3333333333333333,1.0,morning,18_24,Action
+336,336,630,"Crying Game, The (1992)",12,0.0,0.0,0.0,morning,35_44,Action
+337,337,381,"Adventures of Priscilla, Queen of the Desert, The (1994)",19,0.0,0.0,0.0,afternoon,35_44,Comedy
+338,338,193,"Sting, The (1973)",0,1.0,1.0,1.0,evening,35_44,Comedy
+339,339,404,Mission: Impossible (1996),3,1.0,0.43067655807339306,1.0,night,45_54,Action
+340,340,329,187 (1997),33,0.0,0.0,0.0,afternoon,under_18,Drama
+341,341,427,Harold and Maude (1971),9,1.0,0.2890648263178879,1.0,night,25_34,Comedy
+342,342,509,"Magnificent Seven, The (1954)",8,1.0,0.3010299956639812,1.0,afternoon,35_44,Action
+343,343,1013,Romy and Michele's High School Reunion (1997),42,0.0,0.0,0.0,evening,25_34,Comedy
+344,344,292,Donnie Brasco (1997),5,1.0,0.3562071871080222,1.0,night,25_34,Crime
+345,345,1216,Assassins (1995),37,0.0,0.0,0.0,evening,25_34,Thriller
+346,346,84,"Ref, The (1994)",24,0.0,0.0,0.0,morning,18_24,Comedy
+347,347,830,Escape from L.A. (1996),25,0.0,0.0,0.0,afternoon,18_24,Action
+348,348,124,Phenomenon (1996),8,1.0,0.3010299956639812,1.0,night,55_plus,Drama
+349,349,97,"Silence of the Lambs, The (1991)",0,1.0,1.0,1.0,morning,25_34,Drama
+350,350,1315,"Horse Whisperer, The (1998)",64,0.0,0.0,0.0,night,55_plus,Drama
+351,351,233,Jaws (1975),3,1.0,0.43067655807339306,1.0,evening,35_44,Action
+352,352,312,Titanic (1997),0,1.0,1.0,1.0,night,25_34,Action
+353,353,736,Sirens (1994),37,0.0,0.0,0.0,night,25_34,Comedy
+354,354,318,Everyone Says I Love You (1996),15,0.0,0.0,0.0,morning,25_34,Comedy
+355,355,747,"Saint, The (1997)",3,1.0,0.43067655807339306,1.0,night,25_34,Action
+356,356,104,Sgt. Bilko (1996),33,0.0,0.0,0.0,night,25_34,Comedy
+357,357,317,Schindler's List (1993),0,1.0,1.0,1.0,afternoon,35_44,Drama
+358,358,267,Chasing Amy (1997),5,1.0,0.3562071871080222,1.0,evening,18_24,Drama
+359,359,171,"Empire Strikes Back, The (1980)",0,1.0,1.0,1.0,morning,45_54,Action
+360,360,268,"Full Monty, The (1997)",5,1.0,0.3562071871080222,1.0,afternoon,18_24,Comedy
+361,361,331,Kiss the Girls (1997),22,0.0,0.0,0.0,morning,35_44,Crime
+362,362,858,April Fool's Day (1986),69,0.0,0.0,0.0,morning,18_24,Comedy
+363,363,1047,She's the One (1996),38,0.0,0.0,0.0,night,55_plus,Comedy
+364,364,286,Marvin's Room (1996),11,0.0,0.0,0.0,night,25_34,Drama
+365,365,636,"Howling, The (1981)",51,0.0,0.0,0.0,afternoon,18_24,Comedy
+366,366,451,Jaws 2 (1978),20,0.0,0.0,0.0,evening,under_18,Action
+367,367,126,"Godfather, The (1972)",1,1.0,0.6309297535714575,1.0,morning,18_24,Action
+368,368,195,Dead Poets Society (1989),3,1.0,0.43067655807339306,1.0,morning,18_24,Drama
+369,369,208,This Is Spinal Tap (1984),5,1.0,0.3562071871080222,1.0,afternoon,45_54,Comedy
+370,370,76,"Firm, The (1993)",20,0.0,0.0,0.0,morning,35_44,Drama
+371,371,1272,Color of Night (1994),62,0.0,0.0,0.0,evening,25_34,Drama
+372,372,379,Star Trek: Generations (1994),20,0.0,0.0,0.0,evening,18_24,Action
+373,373,287,Scream (1996),1,1.0,0.6309297535714575,1.0,morning,35_44,Horror
+374,374,1216,Assassins (1995),52,0.0,0.0,0.0,evening,under_18,Thriller
+375,375,761,Beautiful Girls (1996),24,0.0,0.0,0.0,evening,25_34,Drama
+376,376,233,Jaws (1975),0,1.0,1.0,1.0,night,18_24,Action
+377,377,702,Widows' Peak (1994),49,0.0,0.0,0.0,afternoon,35_44,Drama
+378,378,187,Full Metal Jacket (1987),0,1.0,1.0,1.0,morning,35_44,Action
+379,379,442,"Birds, The (1963)",4,1.0,0.38685280723454163,1.0,afternoon,25_34,Horror
+380,380,293,Liar Liar (1997),6,1.0,0.3333333333333333,1.0,night,25_34,Comedy
+381,381,333,U Turn (1997),19,0.0,0.0,0.0,night,45_54,Action
+382,382,527,"Killing Fields, The (1984)",2,1.0,0.5,1.0,afternoon,35_44,Drama
+383,383,288,Evita (1996),7,1.0,0.31546487678572877,1.0,evening,45_54,Drama
+384,384,486,Roman Holiday (1953),42,0.0,0.0,0.0,night,35_44,Comedy
+385,385,824,"Arrival, The (1996)",35,0.0,0.0,0.0,night,35_44,Action
+386,386,200,Evil Dead II (1987),18,0.0,0.0,0.0,morning,25_34,Action
+387,387,322,Dante's Peak (1997),10,0.0,0.0,0.0,afternoon,25_34,Action
+388,388,346,Wag the Dog (1997),11,0.0,0.0,0.0,morning,35_44,Comedy
+389,389,282,Emma (1996),6,1.0,0.3333333333333333,1.0,afternoon,35_44,Drama
+390,390,695,City Hall (1996),33,0.0,0.0,0.0,night,18_24,Drama
+391,391,172,"Princess Bride, The (1987)",3,1.0,0.43067655807339306,1.0,evening,45_54,Action
+392,392,301,L.A. Confidential (1997),0,1.0,1.0,1.0,afternoon,18_24,Crime
+393,393,312,Titanic (1997),1,1.0,0.6309297535714575,1.0,morning,25_34,Action
+394,394,314,Apt Pupil (1998),12,0.0,0.0,0.0,night,35_44,Drama
+395,395,840,"Glimmer Man, The (1996)",39,0.0,0.0,0.0,night,55_plus,Action
+396,396,345,Jackie Brown (1997),15,0.0,0.0,0.0,evening,under_18,Crime
+397,397,683,In the Line of Fire (1993),6,1.0,0.3333333333333333,1.0,evening,35_44,Action
+398,398,816,Frisk (1995),92,0.0,0.0,0.0,morning,25_34,Drama
+399,399,322,Dante's Peak (1997),22,0.0,0.0,0.0,evening,25_34,Action
+400,400,565,Clear and Present Danger (1994),20,0.0,0.0,0.0,evening,45_54,Action
+401,401,94,Aladdin (1992),2,1.0,0.5,1.0,night,25_34,Animation
+402,402,475,"First Wives Club, The (1996)",17,0.0,0.0,0.0,evening,35_44,Comedy
+403,403,21,Braveheart (1995),1,1.0,0.6309297535714575,1.0,night,25_34,Action
+404,404,793,It Could Happen to You (1994),17,0.0,0.0,0.0,morning,18_24,Drama
+405,405,490,"Adventures of Robin Hood, The (1938)",18,0.0,0.0,0.0,evening,45_54,Action
+406,406,6,Twelve Monkeys (1995),1,1.0,0.6309297535714575,1.0,afternoon,25_34,Drama
+407,407,747,"Saint, The (1997)",5,1.0,0.3562071871080222,1.0,morning,18_24,Action
+408,408,1098,"Red Firecracker, Green Firecracker (1994)",48,0.0,0.0,0.0,afternoon,45_54,Drama
+409,409,271,Good Will Hunting (1997),4,1.0,0.38685280723454163,1.0,night,25_34,Drama
+410,410,1196,"Family Thing, A (1996)",21,0.0,0.0,0.0,evening,25_34,Comedy
+411,411,172,"Princess Bride, The (1987)",0,1.0,1.0,1.0,evening,25_34,Action
+412,412,627,Sleepers (1996),9,1.0,0.2890648263178879,1.0,evening,55_plus,Crime
+413,413,99,Fargo (1996),0,1.0,1.0,1.0,night,18_24,Crime
+414,414,184,Psycho (1960),3,1.0,0.43067655807339306,1.0,afternoon,35_44,Horror
+415,415,1482,"Man in the Iron Mask, The (1998)",33,0.0,0.0,0.0,night,18_24,Action
+416,416,1015,Con Air (1997),12,0.0,0.0,0.0,evening,25_34,Action
+417,417,287,Scream (1996),0,1.0,1.0,1.0,evening,55_plus,Horror
+418,418,13,"Postino, Il (1994)",7,1.0,0.31546487678572877,1.0,afternoon,35_44,Drama
+419,419,689,Seven Years in Tibet (1997),11,0.0,0.0,0.0,afternoon,45_54,Drama
+420,420,86,Searching for Bobby Fischer (1993),8,1.0,0.3010299956639812,1.0,evening,35_44,Drama
+421,421,440,"Amityville Horror, The (1979)",52,0.0,0.0,0.0,morning,25_34,Horror
+422,422,9,Richard III (1995),20,0.0,0.0,0.0,night,55_plus,Drama
+423,423,24,"Birdcage, The (1996)",2,1.0,0.5,1.0,night,35_44,Comedy
+424,424,197,Nikita (La Femme Nikita) (1990),7,1.0,0.31546487678572877,1.0,evening,18_24,Thriller
+425,425,184,Psycho (1960),1,1.0,0.6309297535714575,1.0,evening,55_plus,Horror
+426,426,333,U Turn (1997),14,0.0,0.0,0.0,afternoon,45_54,Action
+427,427,315,As Good As It Gets (1997),16,0.0,0.0,0.0,afternoon,25_34,Comedy
+428,428,509,"Magnificent Seven, The (1954)",3,1.0,0.43067655807339306,1.0,evening,25_34,Action
+429,429,151,Sleeper (1973),7,1.0,0.31546487678572877,1.0,night,35_44,Comedy
+430,430,537,Anastasia (1997),33,0.0,0.0,0.0,morning,18_24,Animation
+431,431,257,Contact (1997),0,1.0,1.0,1.0,night,18_24,Drama
+432,432,918,"City of Lost Children, The (1995)",13,0.0,0.0,0.0,night,25_34,Adventure
+433,433,475,"First Wives Club, The (1996)",10,0.0,0.0,0.0,night,under_18,Comedy
+434,434,312,Titanic (1997),1,1.0,0.6309297535714575,1.0,afternoon,18_24,Action
+435,435,580,Kalifornia (1993),27,0.0,0.0,0.0,night,25_34,Drama
+436,436,954,Before Sunrise (1995),20,0.0,0.0,0.0,evening,25_34,Drama
+437,437,475,"First Wives Club, The (1996)",14,0.0,0.0,0.0,afternoon,45_54,Comedy
+438,438,289,Fierce Creatures (1997),17,0.0,0.0,0.0,afternoon,18_24,Comedy
+439,439,514,"Boot, Das (1981)",20,0.0,0.0,0.0,night,25_34,Action
+440,440,281,"Time to Kill, A (1996)",6,1.0,0.3333333333333333,1.0,evening,45_54,Drama
+441,441,158,Basic Instinct (1992),20,0.0,0.0,0.0,morning,18_24,Mystery
+442,442,11,"Usual Suspects, The (1995)",1,1.0,0.6309297535714575,1.0,evening,35_44,Crime
+443,443,268,"Full Monty, The (1997)",1,1.0,0.6309297535714575,1.0,evening,45_54,Comedy
+444,444,901,"Big Lebowski, The (1998)",23,0.0,0.0,0.0,evening,18_24,Comedy
+445,445,301,L.A. Confidential (1997),1,1.0,0.6309297535714575,1.0,afternoon,55_plus,Crime
+446,446,155,Reservoir Dogs (1992),8,1.0,0.3010299956639812,1.0,evening,25_34,Crime
+447,447,883,Year of the Horse (1997),59,0.0,0.0,0.0,evening,18_24,Documentary
+448,448,336,"House of Yes, The (1997)",54,0.0,0.0,0.0,evening,18_24,Comedy
+449,449,244,"Devil's Own, The (1997)",8,1.0,0.3010299956639812,1.0,afternoon,35_44,Action
+450,450,1021,"Fast, Cheap & Out of Control (1997)",48,0.0,0.0,0.0,evening,under_18,Documentary
+451,451,630,"Crying Game, The (1992)",6,1.0,0.3333333333333333,1.0,morning,35_44,Action
+452,452,72,Maverick (1994),8,1.0,0.3010299956639812,1.0,night,18_24,Action
+453,453,1106,Beyond Rangoon (1995),41,0.0,0.0,0.0,evening,55_plus,Drama
+454,454,306,"Devil's Advocate, The (1997)",8,1.0,0.3010299956639812,1.0,afternoon,45_54,Crime
+455,455,257,Contact (1997),0,1.0,1.0,1.0,night,18_24,Drama
+456,456,97,"Silence of the Lambs, The (1991)",0,1.0,1.0,1.0,afternoon,25_34,Drama
+457,457,846,Looking for Richard (1996),12,0.0,0.0,0.0,night,45_54,Documentary
+458,458,185,"Blues Brothers, The (1980)",6,1.0,0.3333333333333333,1.0,night,18_24,Action
+459,459,712,Othello (1995),18,0.0,0.0,0.0,evening,35_44,Drama
+460,460,8,Dead Man Walking (1995),3,1.0,0.43067655807339306,1.0,night,under_18,Drama
+461,461,314,Apt Pupil (1998),7,1.0,0.31546487678572877,1.0,evening,18_24,Drama
+462,462,49,Star Wars (1977),0,1.0,1.0,1.0,night,45_54,Action
+463,463,602,Rear Window (1954),0,1.0,1.0,1.0,night,55_plus,Mystery
+464,464,317,Schindler's List (1993),3,1.0,0.43067655807339306,1.0,night,25_34,Drama
+465,465,356,One Flew Over the Cuckoo's Nest (1975),21,0.0,0.0,0.0,morning,18_24,Drama
+466,466,287,Scream (1996),1,1.0,0.6309297535714575,1.0,evening,25_34,Horror
+467,467,43,Dolores Claiborne (1994),25,0.0,0.0,0.0,evening,25_34,Drama
+468,468,126,"Godfather, The (1972)",0,1.0,1.0,1.0,afternoon,55_plus,Action
+469,469,180,Return of the Jedi (1983),0,1.0,1.0,1.0,evening,18_24,Action
+470,470,101,"Aristocats, The (1970)",40,0.0,0.0,0.0,evening,under_18,Animation
+471,471,548,Rob Roy (1995),10,0.0,0.0,0.0,morning,18_24,Drama
+472,472,255,When the Cats Away (Chacun cherche son chat) (1996),52,0.0,0.0,0.0,evening,25_34,Comedy
+473,473,220,Breaking the Waves (1996),16,0.0,0.0,0.0,night,45_54,Drama
+474,474,258,George of the Jungle (1997),18,0.0,0.0,0.0,evening,25_34,Children's
+475,475,244,"Devil's Own, The (1997)",18,0.0,0.0,0.0,night,25_34,Action
+476,476,845,To Gillian on Her 37th Birthday (1996),50,0.0,0.0,0.0,morning,18_24,Drama
+477,477,738,Pretty Woman (1990),11,0.0,0.0,0.0,night,25_34,Comedy
+478,478,914,Primary Colors (1998),60,0.0,0.0,0.0,evening,25_34,Drama
+479,479,503,Bonnie and Clyde (1967),5,1.0,0.3562071871080222,1.0,evening,55_plus,Crime
+480,480,201,Groundhog Day (1993),2,1.0,0.5,1.0,afternoon,55_plus,Comedy
+481,481,297,Face/Off (1997),7,1.0,0.31546487678572877,1.0,afternoon,18_24,Action
+482,482,1151,In Love and War (1996),28,0.0,0.0,0.0,evening,25_34,Romance
+483,483,196,"Graduate, The (1967)",2,1.0,0.5,1.0,evening,25_34,Drama
+484,484,340,Critical Care (1997),60,0.0,0.0,0.0,night,35_44,Comedy
+485,485,99,Fargo (1996),0,1.0,1.0,1.0,afternoon,35_44,Crime
+486,486,832,Bulletproof (1996),13,0.0,0.0,0.0,evening,18_24,Action
+487,487,184,Psycho (1960),3,1.0,0.43067655807339306,1.0,evening,45_54,Horror
+488,488,352,Deep Rising (1998),54,0.0,0.0,0.0,afternoon,55_plus,Action
+489,489,108,Mystery Science Theater 3000: The Movie (1996),24,0.0,0.0,0.0,morning,25_34,Comedy
+490,490,257,Contact (1997),1,1.0,0.6309297535714575,1.0,afternoon,35_44,Drama
+491,491,473,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1963),4,1.0,0.38685280723454163,1.0,evening,55_plus,Sci-Fi
+492,492,332,"Game, The (1997)",3,1.0,0.43067655807339306,1.0,night,18_24,Mystery
+493,493,125,"Spitfire Grill, The (1996)",19,0.0,0.0,0.0,evening,35_44,Drama
+494,494,119,Striptease (1996),36,0.0,0.0,0.0,night,25_34,Comedy
+495,495,86,Searching for Bobby Fischer (1993),13,0.0,0.0,0.0,afternoon,18_24,Drama
+496,496,583,"Secret Garden, The (1993)",17,0.0,0.0,0.0,evening,18_24,Children's
+497,497,447,"Omen, The (1976)",22,0.0,0.0,0.0,afternoon,25_34,Horror
+498,498,901,"Big Lebowski, The (1998)",43,0.0,0.0,0.0,evening,35_44,Comedy
+499,499,297,Face/Off (1997),1,1.0,0.6309297535714575,1.0,night,25_34,Action
+500,500,1006,Waiting for Guffman (1996),15,0.0,0.0,0.0,morning,18_24,Comedy
+501,501,686,McHale's Navy (1997),37,0.0,0.0,0.0,night,18_24,Comedy
+502,502,777,Don Juan DeMarco (1995),19,0.0,0.0,0.0,evening,45_54,Comedy
+503,503,408,Jack (1996),20,0.0,0.0,0.0,afternoon,35_44,Comedy
+504,504,647,"Quiet Man, The (1952)",23,0.0,0.0,0.0,morning,25_34,Comedy
+505,505,567,Speed (1994),0,1.0,1.0,1.0,afternoon,45_54,Action
+506,506,117,Twister (1996),2,1.0,0.5,1.0,afternoon,18_24,Action
+507,507,49,Star Wars (1977),0,1.0,1.0,1.0,evening,25_34,Action
+508,508,49,Star Wars (1977),0,1.0,1.0,1.0,evening,18_24,Action
+509,509,677,Volcano (1997),12,0.0,0.0,0.0,evening,25_34,Drama
+510,510,293,Liar Liar (1997),3,1.0,0.43067655807339306,1.0,night,18_24,Comedy
+511,511,0,Toy Story (1995),0,1.0,1.0,1.0,afternoon,25_34,Animation
+512,512,251,"Lost World: Jurassic Park, The (1997)",9,1.0,0.2890648263178879,1.0,evening,35_44,Action
+513,513,312,Titanic (1997),0,1.0,1.0,1.0,evening,25_34,Action
+514,514,1398,Stranger in the House (1997),98,0.0,0.0,0.0,evening,45_54,Thriller
+515,515,168,"Wrong Trousers, The (1993)",17,0.0,0.0,0.0,evening,45_54,Animation
+516,516,1176,Dunston Checks In (1996),92,0.0,0.0,0.0,afternoon,18_24,Comedy
+517,517,279,Up Close and Personal (1996),29,0.0,0.0,0.0,morning,45_54,Drama
+518,518,345,Jackie Brown (1997),23,0.0,0.0,0.0,evening,18_24,Crime
+519,519,282,Emma (1996),12,0.0,0.0,0.0,night,55_plus,Drama
+520,520,67,"Crow, The (1994)",3,1.0,0.43067655807339306,1.0,morning,18_24,Action
+521,521,529,"Man Who Would Be King, The (1975)",12,0.0,0.0,0.0,night,35_44,Adventure
+522,522,726,Immortal Beloved (1994),24,0.0,0.0,0.0,night,45_54,Drama
+523,523,897,"Postman, The (1997)",22,0.0,0.0,0.0,afternoon,55_plus,Drama
+524,524,268,"Full Monty, The (1997)",0,1.0,1.0,1.0,evening,25_34,Comedy
+525,525,247,Grosse Pointe Blank (1997),1,1.0,0.6309297535714575,1.0,evening,25_34,Comedy
+526,526,1100,Six Degrees of Separation (1993),8,1.0,0.3010299956639812,1.0,evening,25_34,Drama
+527,527,167,Monty Python and the Holy Grail (1974),0,1.0,1.0,1.0,evening,18_24,Comedy
+528,528,874,She's So Lovely (1997),38,0.0,0.0,0.0,afternoon,45_54,Drama
+529,529,1135,Ghosts of Mississippi (1996),45,0.0,0.0,0.0,night,25_34,Drama
+530,530,312,Titanic (1997),0,1.0,1.0,1.0,evening,25_34,Action
+531,531,1010,2 Days in the Valley (1996),12,0.0,0.0,0.0,night,18_24,Crime
+532,532,296,Ulee's Gold (1997),27,0.0,0.0,0.0,afternoon,35_44,Drama
+533,533,762,Happy Gilmore (1996),6,1.0,0.3333333333333333,1.0,evening,18_24,Comedy
+534,534,257,Contact (1997),0,1.0,1.0,1.0,evening,45_54,Drama
+535,535,93,Home Alone (1990),19,0.0,0.0,0.0,afternoon,35_44,Children's
+536,536,714,To Die For (1995),14,0.0,0.0,0.0,night,35_44,Comedy
+537,537,215,When Harry Met Sally... (1989),0,1.0,1.0,1.0,afternoon,25_34,Comedy
+538,538,214,Field of Dreams (1989),1,1.0,0.6309297535714575,1.0,afternoon,45_54,Drama
+539,539,1225,Night Falls on Manhattan (1997),39,0.0,0.0,0.0,night,25_34,Crime
+540,540,224,101 Dalmatians (1996),24,0.0,0.0,0.0,evening,18_24,Children's
+541,541,11,"Usual Suspects, The (1995)",4,1.0,0.38685280723454163,1.0,evening,18_24,Crime
+542,542,935,Brassed Off (1996),13,0.0,0.0,0.0,night,25_34,Comedy
+543,543,299,Air Force One (1997),5,1.0,0.3562071871080222,1.0,afternoon,35_44,Action
+544,544,577,Demolition Man (1993),23,0.0,0.0,0.0,night,25_34,Action
+545,545,589,Hellraiser: Bloodline (1996),50,0.0,0.0,0.0,afternoon,35_44,Action
+546,546,318,Everyone Says I Love You (1996),11,0.0,0.0,0.0,evening,45_54,Comedy
+547,547,1277,Selena (1997),57,0.0,0.0,0.0,morning,45_54,Drama
+548,548,236,Jerry Maguire (1996),0,1.0,1.0,1.0,afternoon,35_44,Drama
+549,549,14,Mr. Holland's Opus (1995),1,1.0,0.6309297535714575,1.0,evening,under_18,Drama
+550,550,779,Dumb & Dumber (1994),18,0.0,0.0,0.0,night,25_34,Comedy
+551,551,120,Independence Day (ID4) (1996),6,1.0,0.3333333333333333,1.0,night,45_54,Action
+552,552,660,High Noon (1952),1,1.0,0.6309297535714575,1.0,afternoon,55_plus,Western
+553,553,327,Conspiracy Theory (1997),4,1.0,0.38685280723454163,1.0,morning,25_34,Action
+554,554,128,Bound (1996),6,1.0,0.3333333333333333,1.0,evening,25_34,Crime
+555,555,171,"Empire Strikes Back, The (1980)",0,1.0,1.0,1.0,evening,35_44,Action
+556,556,749,Amistad (1997),9,1.0,0.2890648263178879,1.0,afternoon,25_34,Drama
+557,557,268,"Full Monty, The (1997)",4,1.0,0.38685280723454163,1.0,afternoon,55_plus,Comedy
+558,558,501,Bananas (1971),17,0.0,0.0,0.0,evening,55_plus,Comedy
+559,559,404,Mission: Impossible (1996),3,1.0,0.43067655807339306,1.0,evening,25_34,Action
+560,560,1008,Stealing Beauty (1996),25,0.0,0.0,0.0,morning,18_24,Drama
+561,561,503,Bonnie and Clyde (1967),10,0.0,0.0,0.0,evening,45_54,Crime
+562,562,152,"Fish Called Wanda, A (1988)",1,1.0,0.6309297535714575,1.0,night,35_44,Comedy
+563,563,256,Men in Black (1997),10,0.0,0.0,0.0,morning,55_plus,Action
+564,564,970,Mediterraneo (1991),17,0.0,0.0,0.0,evening,35_44,Comedy
+565,565,386,"Age of Innocence, The (1993)",17,0.0,0.0,0.0,morning,18_24,Drama
+566,566,247,Grosse Pointe Blank (1997),11,0.0,0.0,0.0,morning,18_24,Comedy
+567,567,528,My Life as a Dog (Mitt liv som hund) (1985),9,1.0,0.2890648263178879,1.0,night,35_44,Drama
+568,568,286,Marvin's Room (1996),13,0.0,0.0,0.0,evening,25_34,Drama
+569,569,326,Cop Land (1997),24,0.0,0.0,0.0,evening,25_34,Crime
+570,570,113,Wallace & Gromit: The Best of Aardman Animation (1996),20,0.0,0.0,0.0,night,25_34,Animation
+571,571,12,Mighty Aphrodite (1995),13,0.0,0.0,0.0,evening,45_54,Comedy
+572,572,215,When Harry Met Sally... (1989),7,1.0,0.31546487678572877,1.0,evening,55_plus,Comedy
+573,573,99,Fargo (1996),0,1.0,1.0,1.0,afternoon,55_plus,Crime
+574,574,356,One Flew Over the Cuckoo's Nest (1975),2,1.0,0.5,1.0,evening,25_34,Drama
+575,575,247,Grosse Pointe Blank (1997),12,0.0,0.0,0.0,night,45_54,Comedy
+576,576,530,Shine (1996),9,1.0,0.2890648263178879,1.0,night,35_44,Drama
+577,577,221,Star Trek: First Contact (1996),2,1.0,0.5,1.0,evening,25_34,Action
+578,578,844,That Thing You Do! (1996),12,0.0,0.0,0.0,morning,25_34,Comedy
+579,579,2,Four Rooms (1995),22,0.0,0.0,0.0,evening,under_18,Thriller
+580,580,918,"City of Lost Children, The (1995)",9,1.0,0.2890648263178879,1.0,night,35_44,Adventure
+581,581,1214,Barb Wire (1996),68,0.0,0.0,0.0,morning,under_18,Action
+582,582,424,Bob Roberts (1992),19,0.0,0.0,0.0,night,35_44,Comedy
+583,583,39,"To Wong Foo, Thanks for Everything! Julie Newmar (1995)",30,0.0,0.0,0.0,night,25_34,Comedy
+584,584,69,Four Weddings and a Funeral (1994),6,1.0,0.3333333333333333,1.0,evening,55_plus,Comedy
+585,585,357,Spawn (1997),18,0.0,0.0,0.0,morning,18_24,Action
+586,586,1624,Nightwatch (1997),99,0.0,0.0,0.0,night,25_34,Horror
+587,587,569,Wyatt Earp (1994),35,0.0,0.0,0.0,morning,18_24,Western
+588,588,688,"Jackal, The (1997)",13,0.0,0.0,0.0,night,18_24,Action
+589,589,1330,"Last Klezmer: Leopold Kozlowski, His Life and Music, The (1995)",77,0.0,0.0,0.0,afternoon,45_54,Documentary
+590,590,855,Night on Earth (1991),17,0.0,0.0,0.0,night,55_plus,Comedy
+591,591,344,Deconstructing Harry (1997),4,1.0,0.38685280723454163,1.0,night,18_24,Comedy
+592,592,1015,Con Air (1997),30,0.0,0.0,0.0,evening,25_34,Action
+593,593,198,"Bridge on the River Kwai, The (1957)",14,0.0,0.0,0.0,evening,45_54,Drama
+594,594,546,"Young Poisoner's Handbook, The (1995)",16,0.0,0.0,0.0,morning,25_34,Crime
+595,595,180,Return of the Jedi (1983),0,1.0,1.0,1.0,night,18_24,Action
+596,596,824,"Arrival, The (1996)",12,0.0,0.0,0.0,morning,18_24,Action
+597,597,21,Braveheart (1995),2,1.0,0.5,1.0,evening,35_44,Action
+598,598,545,Broken Arrow (1996),15,0.0,0.0,0.0,morning,18_24,Action
+599,599,449,Star Trek V: The Final Frontier (1989),23,0.0,0.0,0.0,night,25_34,Action
+600,600,381,"Adventures of Priscilla, Queen of the Desert, The (1994)",9,1.0,0.2890648263178879,1.0,evening,18_24,Comedy
+601,601,116,"Rock, The (1996)",3,1.0,0.43067655807339306,1.0,night,45_54,Action
+602,602,215,When Harry Met Sally... (1989),2,1.0,0.5,1.0,afternoon,18_24,Comedy
+603,603,446,Carrie (1976),16,0.0,0.0,0.0,afternoon,35_44,Horror
+604,604,461,Like Water For Chocolate (Como agua para chocolate) (1992),9,1.0,0.2890648263178879,1.0,evening,25_34,Drama
+605,605,325,G.I. Jane (1997),4,1.0,0.38685280723454163,1.0,evening,25_34,Action
+606,606,29,Belle de jour (1967),24,0.0,0.0,0.0,night,45_54,Drama
+607,607,75,Carlito's Way (1993),24,0.0,0.0,0.0,evening,18_24,Crime
+608,608,407,"Close Shave, A (1995)",7,1.0,0.31546487678572877,1.0,night,under_18,Animation
+609,609,672,Cape Fear (1962),26,0.0,0.0,0.0,evening,18_24,Film-Noir
+610,610,885,"Life Less Ordinary, A (1997)",34,0.0,0.0,0.0,evening,45_54,Romance
+611,611,603,It Happened One Night (1934),33,0.0,0.0,0.0,night,35_44,Comedy
+612,612,278,Once Upon a Time... When We Were Colored (1995),41,0.0,0.0,0.0,night,35_44,Drama
+613,613,716,"Juror, The (1996)",28,0.0,0.0,0.0,night,45_54,Drama
+614,614,731,Dave (1993),10,0.0,0.0,0.0,evening,35_44,Comedy
+615,615,936,"Thousand Acres, A (1997)",32,0.0,0.0,0.0,night,55_plus,Drama
+616,616,667,Blood Beach (1981),73,0.0,0.0,0.0,night,25_34,Action
+617,617,143,Die Hard (1988),1,1.0,0.6309297535714575,1.0,night,under_18,Action
+618,618,575,Cliffhanger (1993),9,1.0,0.2890648263178879,1.0,night,under_18,Action
+619,619,111,Flipper (1996),33,0.0,0.0,0.0,evening,18_24,Adventure
+620,620,332,"Game, The (1997)",0,1.0,1.0,1.0,evening,under_18,Mystery
+621,621,1410,Barbarella (1968),25,0.0,0.0,0.0,night,25_34,Adventure
+622,622,209,Indiana Jones and the Last Crusade (1989),6,1.0,0.3333333333333333,1.0,evening,45_54,Action
+623,623,311,Midnight in the Garden of Good and Evil (1997),28,0.0,0.0,0.0,afternoon,18_24,Comedy
+624,624,384,True Lies (1994),2,1.0,0.5,1.0,afternoon,25_34,Action
+625,625,922,Raise the Red Lantern (1991),22,0.0,0.0,0.0,night,18_24,Drama
+626,626,540,Mortal Kombat (1995),27,0.0,0.0,0.0,evening,18_24,Action
+627,627,293,Liar Liar (1997),2,1.0,0.5,1.0,night,under_18,Comedy
+628,628,728,Nell (1994),13,0.0,0.0,0.0,afternoon,45_54,Drama
+629,629,271,Good Will Hunting (1997),4,1.0,0.38685280723454163,1.0,evening,25_34,Drama
+630,630,885,"Life Less Ordinary, A (1997)",31,0.0,0.0,0.0,night,18_24,Romance
+631,631,257,Contact (1997),0,1.0,1.0,1.0,evening,18_24,Drama
+632,632,233,Jaws (1975),0,1.0,1.0,1.0,evening,35_44,Action
+633,633,268,"Full Monty, The (1997)",1,1.0,0.6309297535714575,1.0,evening,35_44,Comedy
+634,634,0,Toy Story (1995),2,1.0,0.5,1.0,morning,18_24,Animation
+635,635,234,Mars Attacks! (1996),19,0.0,0.0,0.0,afternoon,45_54,Action
+636,636,290,Absolute Power (1997),28,0.0,0.0,0.0,evening,25_34,Mystery
+637,637,522,Cool Hand Luke (1967),11,0.0,0.0,0.0,evening,45_54,Comedy
+638,638,957,To Live (Huozhe) (1994),40,0.0,0.0,0.0,morning,35_44,Drama
+639,639,690,Dark City (1998),35,0.0,0.0,0.0,night,18_24,Film-Noir
+640,640,29,Belle de jour (1967),24,0.0,0.0,0.0,evening,18_24,Drama
+641,641,814,One Fine Day (1996),23,0.0,0.0,0.0,evening,18_24,Drama
+642,642,254,My Best Friend's Wedding (1997),8,1.0,0.3010299956639812,1.0,evening,35_44,Comedy
+643,643,254,My Best Friend's Wedding (1997),20,0.0,0.0,0.0,morning,45_54,Comedy
+644,644,86,Searching for Bobby Fischer (1993),9,1.0,0.2890648263178879,1.0,afternoon,25_34,Drama
+645,645,1175,Welcome To Sarajevo (1997),56,0.0,0.0,0.0,evening,under_18,Drama
+646,646,72,Maverick (1994),12,0.0,0.0,0.0,night,35_44,Action
+647,647,562,Stephen King's The Langoliers (1995),67,0.0,0.0,0.0,afternoon,35_44,Horror
+648,648,253,Batman & Robin (1997),36,0.0,0.0,0.0,afternoon,18_24,Action
+649,649,1109,Tank Girl (1995),48,0.0,0.0,0.0,night,35_44,Action
+650,650,326,Cop Land (1997),16,0.0,0.0,0.0,afternoon,55_plus,Crime
+651,651,698,Little Women (1994),17,0.0,0.0,0.0,evening,35_44,Drama
+652,652,244,"Devil's Own, The (1997)",4,1.0,0.38685280723454163,1.0,evening,25_34,Action
+653,653,268,"Full Monty, The (1997)",3,1.0,0.43067655807339306,1.0,afternoon,25_34,Comedy
+654,654,1644,"Butcher Boy, The (1998)",88,0.0,0.0,0.0,night,45_54,Drama
+655,655,895,"Sweet Hereafter, The (1997)",15,0.0,0.0,0.0,evening,45_54,Drama
+656,656,116,"Rock, The (1996)",2,1.0,0.5,1.0,morning,25_34,Action
+657,657,150,Willy Wonka and the Chocolate Factory (1971),0,1.0,1.0,1.0,night,25_34,Adventure
+658,658,386,"Age of Innocence, The (1993)",23,0.0,0.0,0.0,night,25_34,Drama
+659,659,208,This Is Spinal Tap (1984),2,1.0,0.5,1.0,night,25_34,Comedy
+660,660,271,Good Will Hunting (1997),4,1.0,0.38685280723454163,1.0,evening,25_34,Drama
+661,661,99,Fargo (1996),1,1.0,0.6309297535714575,1.0,evening,55_plus,Crime
+662,662,186,"Godfather: Part II, The (1974)",0,1.0,1.0,1.0,night,25_34,Action
+663,663,201,Groundhog Day (1993),1,1.0,0.6309297535714575,1.0,night,25_34,Comedy
+664,664,314,Apt Pupil (1998),14,0.0,0.0,0.0,afternoon,25_34,Drama
+665,665,791,Bullets Over Broadway (1994),9,1.0,0.2890648263178879,1.0,evening,35_44,Comedy
+666,666,659,Fried Green Tomatoes (1991),3,1.0,0.43067655807339306,1.0,evening,35_44,Drama
+667,667,353,"Wedding Singer, The (1998)",20,0.0,0.0,0.0,night,25_34,Comedy
+668,668,81,Jurassic Park (1993),2,1.0,0.5,1.0,morning,35_44,Action
+669,669,190,Amadeus (1984),3,1.0,0.43067655807339306,1.0,evening,25_34,Drama
+670,670,254,My Best Friend's Wedding (1997),9,1.0,0.2890648263178879,1.0,evening,18_24,Comedy
+671,671,1060,"Evening Star, The (1996)",38,0.0,0.0,0.0,afternoon,45_54,Comedy
+672,672,78,"Fugitive, The (1993)",0,1.0,1.0,1.0,evening,45_54,Action
+673,673,110,"Truth About Cats & Dogs, The (1996)",1,1.0,0.6309297535714575,1.0,night,under_18,Comedy
+674,674,1100,Six Degrees of Separation (1993),14,0.0,0.0,0.0,night,25_34,Drama
+675,675,519,"Great Escape, The (1963)",20,0.0,0.0,0.0,night,25_34,Adventure
+676,676,100,Heavy Metal (1981),30,0.0,0.0,0.0,night,18_24,Action
+677,677,116,"Rock, The (1996)",9,1.0,0.2890648263178879,1.0,evening,45_54,Action
+678,678,72,Maverick (1994),12,0.0,0.0,0.0,night,18_24,Action
+679,679,116,"Rock, The (1996)",2,1.0,0.5,1.0,morning,25_34,Action
+680,680,288,Evita (1996),8,1.0,0.3010299956639812,1.0,evening,35_44,Drama
+681,681,249,"Fifth Element, The (1997)",1,1.0,0.6309297535714575,1.0,evening,18_24,Action
+682,682,247,Grosse Pointe Blank (1997),18,0.0,0.0,0.0,night,35_44,Comedy
+683,683,48,I.Q. (1994),36,0.0,0.0,0.0,evening,25_34,Comedy
+684,685,180,Return of the Jedi (1983),0,1.0,1.0,1.0,evening,25_34,Action
+685,686,677,Volcano (1997),33,0.0,0.0,0.0,night,25_34,Drama
+686,687,876,Excess Baggage (1997),35,0.0,0.0,0.0,morning,35_44,Adventure
+687,688,327,Conspiracy Theory (1997),11,0.0,0.0,0.0,night,25_34,Action
+688,689,196,"Graduate, The (1967)",2,1.0,0.5,1.0,evening,35_44,Drama
+689,690,204,Patton (1970),7,1.0,0.31546487678572877,1.0,afternoon,25_34,Drama
+690,691,411,"Very Brady Sequel, A (1996)",34,0.0,0.0,0.0,evening,25_34,Comedy
+691,692,312,Titanic (1997),0,1.0,1.0,1.0,night,35_44,Action
+692,693,178,"Clockwork Orange, A (1971)",1,1.0,0.6309297535714575,1.0,evening,55_plus,Sci-Fi
+693,694,677,Volcano (1997),22,0.0,0.0,0.0,night,25_34,Drama
+694,695,284,Secrets & Lies (1996),8,1.0,0.3010299956639812,1.0,morning,55_plus,Drama
+695,696,245,Chasing Amy (1997),8,1.0,0.3010299956639812,1.0,afternoon,25_34,Drama
+696,697,511,Wings of Desire (1987),18,0.0,0.0,0.0,evening,25_34,Comedy
+697,698,269,Gattaca (1997),8,1.0,0.3010299956639812,1.0,morning,35_44,Drama
+698,699,317,Schindler's List (1993),1,1.0,0.6309297535714575,1.0,night,under_18,Drama
+699,700,274,Sense and Sensibility (1995),2,1.0,0.5,1.0,afternoon,45_54,Drama
+700,701,221,Star Trek: First Contact (1996),3,1.0,0.43067655807339306,1.0,evening,35_44,Action
+701,702,120,Independence Day (ID4) (1996),0,1.0,1.0,1.0,night,25_34,Action
+702,703,130,Breakfast at Tiffany's (1961),1,1.0,0.6309297535714575,1.0,night,45_54,Drama
+703,704,195,Dead Poets Society (1989),3,1.0,0.43067655807339306,1.0,evening,18_24,Drama
+704,705,236,Jerry Maguire (1996),9,1.0,0.2890648263178879,1.0,afternoon,18_24,Drama
+705,706,901,"Big Lebowski, The (1998)",34,0.0,0.0,0.0,night,55_plus,Comedy
+706,707,125,"Spitfire Grill, The (1996)",15,0.0,0.0,0.0,morning,25_34,Drama
+707,708,202,Unforgiven (1992),2,1.0,0.5,1.0,morning,18_24,Western
+708,709,345,Jackie Brown (1997),20,0.0,0.0,0.0,night,18_24,Crime
+709,710,315,As Good As It Gets (1997),5,1.0,0.3562071871080222,1.0,evening,18_24,Comedy
+710,711,141,Bedknobs and Broomsticks (1971),35,0.0,0.0,0.0,evening,18_24,Adventure
+711,712,346,Wag the Dog (1997),25,0.0,0.0,0.0,night,35_44,Comedy
+712,713,299,Air Force One (1997),0,1.0,1.0,1.0,night,25_34,Action
+713,714,192,"Right Stuff, The (1983)",5,1.0,0.3562071871080222,1.0,morning,18_24,Drama
+714,715,140,"20,000 Leagues Under the Sea (1954)",1,1.0,0.6309297535714575,1.0,evening,35_44,Adventure
+715,716,126,"Godfather, The (1972)",3,1.0,0.43067655807339306,1.0,evening,18_24,Action
+716,717,750,Tomorrow Never Dies (1997),21,0.0,0.0,0.0,night,35_44,Action
+717,718,219,"Mirror Has Two Faces, The (1996)",28,0.0,0.0,0.0,night,35_44,Comedy
+718,719,901,"Big Lebowski, The (1998)",31,0.0,0.0,0.0,afternoon,45_54,Comedy
+719,720,203,Back to the Future (1985),0,1.0,1.0,1.0,morning,18_24,Comedy
+720,721,129,Kansas City (1996),68,0.0,0.0,0.0,evening,45_54,Crime
+721,722,163,"Abyss, The (1989)",14,0.0,0.0,0.0,night,25_34,Action
+722,723,894,Scream 2 (1997),17,0.0,0.0,0.0,afternoon,25_34,Horror
+723,724,327,Conspiracy Theory (1997),5,1.0,0.3562071871080222,1.0,night,18_24,Action
+724,725,0,Toy Story (1995),1,1.0,0.6309297535714575,1.0,evening,25_34,Animation
+725,726,981,Maximum Risk (1996),57,0.0,0.0,0.0,night,25_34,Action
+726,727,284,Secrets & Lies (1996),3,1.0,0.43067655807339306,1.0,afternoon,55_plus,Drama
+727,728,271,Good Will Hunting (1997),0,1.0,1.0,1.0,night,18_24,Drama
+728,729,256,Men in Black (1997),5,1.0,0.3562071871080222,1.0,evening,25_34,Action
+729,730,479,North by Northwest (1959),1,1.0,0.6309297535714575,1.0,evening,35_44,Comedy
+730,731,287,Scream (1996),0,1.0,1.0,1.0,night,25_34,Horror
+731,732,1337,Two Deaths (1995),98,0.0,0.0,0.0,evening,35_44,Drama
+732,733,120,Independence Day (ID4) (1996),9,1.0,0.2890648263178879,1.0,evening,25_34,Action
+733,734,297,Face/Off (1997),18,0.0,0.0,0.0,night,25_34,Action
+734,735,252,"Pillow Book, The (1995)",42,0.0,0.0,0.0,morning,45_54,Drama
+735,736,174,Brazil (1985),1,1.0,0.6309297535714575,1.0,night,25_34,Sci-Fi
+736,737,135,Mr. Smith Goes to Washington (1939),2,1.0,0.5,1.0,night,35_44,Drama
+737,738,186,"Godfather: Part II, The (1974)",1,1.0,0.6309297535714575,1.0,afternoon,35_44,Action
+738,739,1037,Switchback (1997),72,0.0,0.0,0.0,afternoon,25_34,Thriller
+739,740,282,Emma (1996),14,0.0,0.0,0.0,evening,25_34,Drama
+740,741,236,Jerry Maguire (1996),3,1.0,0.43067655807339306,1.0,afternoon,35_44,Drama
+741,742,8,Dead Man Walking (1995),2,1.0,0.5,1.0,night,25_34,Drama
+742,743,0,Toy Story (1995),1,1.0,0.6309297535714575,1.0,afternoon,35_44,Animation
+743,744,9,Richard III (1995),20,0.0,0.0,0.0,afternoon,35_44,Drama
+744,745,63,"Shawshank Redemption, The (1994)",0,1.0,1.0,1.0,evening,25_34,Drama
+745,746,671,Candyman (1992),46,0.0,0.0,0.0,morning,18_24,Horror
+746,747,198,"Bridge on the River Kwai, The (1957)",3,1.0,0.43067655807339306,1.0,evening,25_34,Drama
+747,748,619,"Chamber, The (1996)",39,0.0,0.0,0.0,afternoon,25_34,Drama
+748,749,330,"Edge, The (1997)",12,0.0,0.0,0.0,evening,25_34,Adventure
+749,750,737,Threesome (1994),39,0.0,0.0,0.0,evening,18_24,Comedy
+750,751,588,"Wild Bunch, The (1969)",32,0.0,0.0,0.0,evening,55_plus,Western
+751,752,63,"Shawshank Redemption, The (1994)",2,1.0,0.5,1.0,night,55_plus,Drama
+752,753,290,Absolute Power (1997),13,0.0,0.0,0.0,evening,55_plus,Mystery
+753,754,747,"Saint, The (1997)",14,0.0,0.0,0.0,evening,35_44,Action
+754,755,54,"Professional, The (1994)",6,1.0,0.3333333333333333,1.0,evening,25_34,Crime
+755,756,167,Monty Python and the Holy Grail (1974),1,1.0,0.6309297535714575,1.0,night,25_34,Comedy
+756,757,901,"Big Lebowski, The (1998)",19,0.0,0.0,0.0,night,25_34,Comedy
+757,758,280,"River Wild, The (1994)",13,0.0,0.0,0.0,morning,18_24,Action
+758,759,374,Showgirls (1995),71,0.0,0.0,0.0,night,35_44,Drama
+759,760,124,Phenomenon (1996),8,1.0,0.3010299956639812,1.0,night,under_18,Drama
+760,761,420,William Shakespeare's Romeo and Juliet (1996),14,0.0,0.0,0.0,morning,25_34,Drama
+761,762,1038,Hamlet (1996),7,1.0,0.31546487678572877,1.0,afternoon,25_34,Drama
+762,763,13,"Postino, Il (1994)",8,1.0,0.3010299956639812,1.0,afternoon,25_34,Drama
+763,764,506,"Streetcar Named Desire, A (1951)",47,0.0,0.0,0.0,night,25_34,Drama
+764,765,558,Interview with the Vampire (1994),37,0.0,0.0,0.0,night,35_44,Drama
+765,766,614,"39 Steps, The (1935)",4,1.0,0.38685280723454163,1.0,evening,55_plus,Thriller
+766,767,254,My Best Friend's Wedding (1997),15,0.0,0.0,0.0,night,25_34,Comedy
+767,768,933,"Preacher's Wife, The (1996)",41,0.0,0.0,0.0,night,35_44,Drama
+768,769,936,"Thousand Acres, A (1997)",44,0.0,0.0,0.0,evening,25_34,Drama
+769,770,891,Flubber (1997),46,0.0,0.0,0.0,night,25_34,Children's
+770,771,311,Midnight in the Garden of Good and Evil (1997),22,0.0,0.0,0.0,afternoon,45_54,Comedy
+771,772,1554,"Secret Adventures of Tom Thumb, The (1993)",99,0.0,0.0,0.0,night,18_24,Adventure
+772,773,218,"Nightmare on Elm Street, A (1984)",17,0.0,0.0,0.0,morning,25_34,Horror
+773,774,263,Mimic (1997),43,0.0,0.0,0.0,evening,45_54,Sci-Fi
+774,775,660,High Noon (1952),35,0.0,0.0,0.0,afternoon,25_34,Western
+775,776,651,Rosencrantz and Guildenstern Are Dead (1990),22,0.0,0.0,0.0,afternoon,55_plus,Comedy
+776,777,261,In the Company of Men (1997),22,0.0,0.0,0.0,night,25_34,Drama
+777,778,224,101 Dalmatians (1996),34,0.0,0.0,0.0,afternoon,25_34,Children's
+778,779,384,True Lies (1994),7,1.0,0.31546487678572877,1.0,afternoon,45_54,Action
+779,780,134,2001: A Space Odyssey (1968),1,1.0,0.6309297535714575,1.0,evening,18_24,Drama
+780,781,1661,Rough Magic (1995),82,0.0,0.0,0.0,morning,18_24,Drama
+781,782,894,Scream 2 (1997),15,0.0,0.0,0.0,morning,25_34,Horror
+782,783,897,"Postman, The (1997)",29,0.0,0.0,0.0,night,45_54,Drama
+783,784,151,Sleeper (1973),25,0.0,0.0,0.0,afternoon,25_34,Comedy
+784,785,288,Evita (1996),5,1.0,0.3562071871080222,1.0,night,35_44,Drama
+785,786,328,Desperate Measures (1998),40,0.0,0.0,0.0,night,18_24,Crime
+786,787,661,Somewhere in Time (1980),12,0.0,0.0,0.0,morning,45_54,Drama
+787,788,180,Return of the Jedi (1983),0,1.0,1.0,1.0,night,25_34,Action
+788,789,249,"Fifth Element, The (1997)",3,1.0,0.43067655807339306,1.0,evening,25_34,Action
+789,790,180,Return of the Jedi (1983),1,1.0,0.6309297535714575,1.0,evening,25_34,Action
+790,791,543,Things to Do in Denver when You're Dead (1995),23,0.0,0.0,0.0,night,35_44,Crime
+791,792,590,Primal Fear (1996),17,0.0,0.0,0.0,afternoon,18_24,Drama
+792,793,247,Grosse Pointe Blank (1997),11,0.0,0.0,0.0,evening,25_34,Comedy
+793,794,0,Toy Story (1995),1,1.0,0.6309297535714575,1.0,evening,25_34,Animation
+794,795,484,My Fair Lady (1964),7,1.0,0.31546487678572877,1.0,evening,25_34,Musical
+795,796,780,French Kiss (1995),28,0.0,0.0,0.0,afternoon,35_44,Comedy
+796,797,269,Gattaca (1997),26,0.0,0.0,0.0,evening,35_44,Drama
+797,798,426,To Kill a Mockingbird (1962),1,1.0,0.6309297535714575,1.0,afternoon,45_54,Drama
+798,799,236,Jerry Maguire (1996),0,1.0,1.0,1.0,afternoon,25_34,Drama
+799,800,357,Spawn (1997),11,0.0,0.0,0.0,evening,18_24,Action
+800,801,412,Tales from the Crypt Presents: Bordello of Blood (1996),36,0.0,0.0,0.0,afternoon,35_44,Horror
+801,802,306,"Devil's Advocate, The (1997)",18,0.0,0.0,0.0,evening,55_plus,Crime
+802,803,362,Sudden Death (1995),19,0.0,0.0,0.0,evening,35_44,Action
+803,804,351,Spice World (1997),49,0.0,0.0,0.0,evening,25_34,Comedy
+804,805,130,Breakfast at Tiffany's (1961),17,0.0,0.0,0.0,evening,25_34,Drama
+805,806,253,Batman & Robin (1997),32,0.0,0.0,0.0,afternoon,35_44,Action
+806,807,345,Jackie Brown (1997),5,1.0,0.3562071871080222,1.0,evening,45_54,Crime
+807,808,298,Hoodlum (1997),28,0.0,0.0,0.0,evening,45_54,Crime
+808,809,325,G.I. Jane (1997),12,0.0,0.0,0.0,afternoon,55_plus,Action
+809,810,900,Mr. Magoo (1997),73,0.0,0.0,0.0,night,35_44,Comedy
+810,811,872,Picture Perfect (1997),39,0.0,0.0,0.0,afternoon,18_24,Comedy
+811,812,889,Mortal Kombat: Annihilation (1997),45,0.0,0.0,0.0,afternoon,under_18,Action
+812,813,664,Alien 3 (1992),44,0.0,0.0,0.0,evening,25_34,Action
+813,814,426,To Kill a Mockingbird (1962),2,1.0,0.5,1.0,afternoon,25_34,Drama
+814,815,293,Liar Liar (1997),4,1.0,0.38685280723454163,1.0,afternoon,25_34,Comedy
+815,816,280,"River Wild, The (1994)",6,1.0,0.3333333333333333,1.0,night,18_24,Action
+816,817,886,Eve's Bayou (1997),27,0.0,0.0,0.0,afternoon,25_34,Drama
+817,818,314,Apt Pupil (1998),4,1.0,0.38685280723454163,1.0,afternoon,55_plus,Drama
+818,819,342,Alien: Resurrection (1997),40,0.0,0.0,0.0,morning,18_24,Action
+819,820,70,"Lion King, The (1994)",6,1.0,0.3333333333333333,1.0,evening,35_44,Animation
+820,821,110,"Truth About Cats & Dogs, The (1996)",3,1.0,0.43067655807339306,1.0,evening,25_34,Comedy
+821,822,16,From Dusk Till Dawn (1996),30,0.0,0.0,0.0,night,25_34,Action
+822,823,324,Crash (1996),26,0.0,0.0,0.0,afternoon,25_34,Drama
+823,824,285,"English Patient, The (1996)",3,1.0,0.43067655807339306,1.0,evening,35_44,Drama
+824,825,1109,Tank Girl (1995),30,0.0,0.0,0.0,night,25_34,Action
+825,826,271,Good Will Hunting (1997),5,1.0,0.3562071871080222,1.0,evening,18_24,Drama
+826,827,1645,Men With Guns (1997),92,0.0,0.0,0.0,evening,25_34,Action
+827,828,123,Lone Star (1996),5,1.0,0.3562071871080222,1.0,afternoon,45_54,Drama
+828,829,48,I.Q. (1994),33,0.0,0.0,0.0,evening,45_54,Comedy
+829,830,236,Jerry Maguire (1996),2,1.0,0.5,1.0,afternoon,18_24,Drama
+830,831,470,Courage Under Fire (1996),16,0.0,0.0,0.0,evening,18_24,Drama
+831,832,343,"Apostle, The (1997)",30,0.0,0.0,0.0,night,25_34,Drama
+832,833,761,Beautiful Girls (1996),27,0.0,0.0,0.0,evening,25_34,Drama
+833,834,22,Taxi Driver (1976),2,1.0,0.5,1.0,evening,35_44,Drama
+834,835,662,Being There (1979),5,1.0,0.3562071871080222,1.0,evening,35_44,Comedy
+835,836,844,That Thing You Do! (1996),23,0.0,0.0,0.0,afternoon,35_44,Comedy
+836,837,353,"Wedding Singer, The (1998)",19,0.0,0.0,0.0,evening,18_24,Comedy
+837,838,1084,Carried Away (1996),57,0.0,0.0,0.0,night,35_44,Drama
+838,839,1673,Mamma Roma (1962),84,0.0,0.0,0.0,evening,35_44,Drama
+839,840,1293,Ayn Rand: A Sense of Life (1997),56,0.0,0.0,0.0,night,45_54,Documentary
+840,841,901,"Big Lebowski, The (1998)",38,0.0,0.0,0.0,night,35_44,Comedy
+841,842,134,2001: A Space Odyssey (1968),1,1.0,0.6309297535714575,1.0,evening,35_44,Drama
+842,843,431,Fantasia (1940),15,0.0,0.0,0.0,evening,18_24,Animation
+843,844,908,Dangerous Beauty (1998),39,0.0,0.0,0.0,evening,55_plus,Drama
+844,845,1043,"Paper, The (1994)",34,0.0,0.0,0.0,evening,25_34,Comedy
+845,846,78,"Fugitive, The (1993)",0,1.0,1.0,1.0,evening,25_34,Action
+846,847,213,Pink Floyd - The Wall (1982),9,1.0,0.2890648263178879,1.0,evening,45_54,Drama
+847,848,132,Gone with the Wind (1939),24,0.0,0.0,0.0,afternoon,under_18,Drama
+848,849,21,Braveheart (1995),0,1.0,1.0,1.0,night,25_34,Action
+849,850,914,Primary Colors (1998),72,0.0,0.0,0.0,afternoon,18_24,Drama
+850,851,567,Speed (1994),8,1.0,0.3010299956639812,1.0,evening,45_54,Action
+851,852,1024,Fire Down Below (1997),45,0.0,0.0,0.0,evening,45_54,Action
+852,853,48,I.Q. (1994),21,0.0,0.0,0.0,evening,25_34,Comedy
+853,854,528,My Life as a Dog (Mitt liv som hund) (1985),7,1.0,0.31546487678572877,1.0,night,45_54,Drama
+854,855,321,Murder at 1600 (1997),12,0.0,0.0,0.0,night,35_44,Mystery
+855,856,274,Sense and Sensibility (1995),1,1.0,0.6309297535714575,1.0,evening,35_44,Drama
+856,857,333,U Turn (1997),32,0.0,0.0,0.0,night,55_plus,Action
+857,858,420,William Shakespeare's Romeo and Juliet (1996),6,1.0,0.3333333333333333,1.0,night,18_24,Drama
+858,859,311,Midnight in the Garden of Good and Evil (1997),10,0.0,0.0,0.0,afternoon,55_plus,Comedy
+859,860,948,How to Make an American Quilt (1995),19,0.0,0.0,0.0,evening,35_44,Drama
+860,861,435,"American Werewolf in London, An (1981)",5,1.0,0.3562071871080222,1.0,night,25_34,Horror
+861,862,1430,Legal Deceit (1997),53,0.0,0.0,0.0,afternoon,under_18,Thriller
+862,863,256,Men in Black (1997),0,1.0,1.0,1.0,night,25_34,Action
+863,864,293,Liar Liar (1997),3,1.0,0.43067655807339306,1.0,evening,25_34,Comedy
+864,865,318,Everyone Says I Love You (1996),22,0.0,0.0,0.0,night,45_54,Comedy
+865,866,955,Nobody's Fool (1994),27,0.0,0.0,0.0,night,18_24,Drama
+866,867,549,Die Hard: With a Vengeance (1995),13,0.0,0.0,0.0,evening,18_24,Action
+867,868,248,Austin Powers: International Man of Mystery (1997),10,0.0,0.0,0.0,night,25_34,Comedy
+868,869,271,Good Will Hunting (1997),2,1.0,0.5,1.0,afternoon,18_24,Drama
+869,870,780,French Kiss (1995),38,0.0,0.0,0.0,night,25_34,Comedy
+870,871,475,"First Wives Club, The (1996)",13,0.0,0.0,0.0,morning,18_24,Comedy
+871,872,327,Conspiracy Theory (1997),20,0.0,0.0,0.0,night,45_54,Action
+872,873,653,Chinatown (1974),3,1.0,0.43067655807339306,1.0,night,35_44,Film-Noir
+873,874,22,Taxi Driver (1976),8,1.0,0.3010299956639812,1.0,morning,18_24,Drama
+874,875,530,Shine (1996),8,1.0,0.3010299956639812,1.0,afternoon,35_44,Drama
+875,876,163,"Abyss, The (1989)",13,0.0,0.0,0.0,night,25_34,Action
+876,877,529,"Man Who Would Be King, The (1975)",26,0.0,0.0,0.0,morning,45_54,Adventure
+877,878,110,"Truth About Cats & Dogs, The (1996)",1,1.0,0.6309297535714575,1.0,night,25_34,Comedy
+878,879,814,One Fine Day (1996),20,0.0,0.0,0.0,night,under_18,Drama
+879,880,408,Jack (1996),29,0.0,0.0,0.0,morning,35_44,Comedy
+880,881,968,Winnie the Pooh and the Blustery Day (1968),11,0.0,0.0,0.0,evening,35_44,Animation
+881,882,751,"Replacement Killers, The (1998)",51,0.0,0.0,0.0,night,45_54,Action
+882,883,380,Muriel's Wedding (1994),9,1.0,0.2890648263178879,1.0,evening,35_44,Comedy
+883,884,142,"Sound of Music, The (1965)",1,1.0,0.6309297535714575,1.0,morning,25_34,Musical
+884,885,1013,Romy and Michele's High School Reunion (1997),26,0.0,0.0,0.0,morning,18_24,Comedy
+885,886,1028,Jury Duty (1995),58,0.0,0.0,0.0,night,under_18,Comedy
+886,887,273,Sabrina (1995),19,0.0,0.0,0.0,evening,35_44,Comedy
+887,888,216,Bram Stoker's Dracula (1992),9,1.0,0.2890648263178879,1.0,morning,18_24,Horror
+888,889,1148,Walkabout (1971),25,0.0,0.0,0.0,night,25_34,Drama
+889,890,470,Courage Under Fire (1996),3,1.0,0.43067655807339306,1.0,evening,45_54,Drama
+890,891,4,Copycat (1995),21,0.0,0.0,0.0,afternoon,35_44,Crime
+891,892,95,Terminator 2: Judgment Day (1991),0,1.0,1.0,1.0,morning,25_34,Action
+892,893,903,Ma vie en rose (My Life in Pink) (1997),46,0.0,0.0,0.0,afternoon,45_54,Comedy
+893,894,741,Ransom (1996),1,1.0,0.6309297535714575,1.0,afternoon,25_34,Drama
+894,895,175,Aliens (1986),1,1.0,0.6309297535714575,1.0,evening,25_34,Action
+895,896,645,Once Upon a Time in the West (1969),20,0.0,0.0,0.0,night,25_34,Western
+896,897,1295,Indian Summer (1996),35,0.0,0.0,0.0,night,18_24,Comedy
+897,898,723,Circle of Friends (1995),19,0.0,0.0,0.0,evening,25_34,Drama
+898,899,617,Picnic (1955),17,0.0,0.0,0.0,night,55_plus,Drama
+899,900,863,My Fellow Americans (1996),22,0.0,0.0,0.0,evening,35_44,Comedy
+900,901,78,"Fugitive, The (1993)",2,1.0,0.5,1.0,night,45_54,Action
+901,902,527,"Killing Fields, The (1984)",1,1.0,0.6309297535714575,1.0,evening,25_34,Drama
+902,903,602,Rear Window (1954),16,0.0,0.0,0.0,night,under_18,Mystery
+903,904,457,Nixon (1995),35,0.0,0.0,0.0,evening,25_34,Drama
+904,905,695,City Hall (1996),20,0.0,0.0,0.0,afternoon,45_54,Drama
+905,906,128,Bound (1996),7,1.0,0.31546487678572877,1.0,night,25_34,Crime
+906,907,630,"Crying Game, The (1992)",2,1.0,0.5,1.0,night,35_44,Action
+907,908,13,"Postino, Il (1994)",4,1.0,0.38685280723454163,1.0,night,45_54,Drama
+908,909,1011,Private Parts (1997),20,0.0,0.0,0.0,night,25_34,Comedy
+909,910,196,"Graduate, The (1967)",2,1.0,0.5,1.0,evening,35_44,Drama
+910,911,14,Mr. Holland's Opus (1995),4,1.0,0.38685280723454163,1.0,afternoon,45_54,Drama
+911,912,257,Contact (1997),0,1.0,1.0,1.0,night,25_34,Drama
+912,913,401,Ghost (1990),10,0.0,0.0,0.0,afternoon,35_44,Comedy
+913,914,346,Wag the Dog (1997),14,0.0,0.0,0.0,evening,45_54,Comedy
+914,915,189,Henry V (1989),3,1.0,0.43067655807339306,1.0,night,25_34,Drama
+915,916,627,Sleepers (1996),8,1.0,0.3010299956639812,1.0,evening,18_24,Crime
+916,917,142,"Sound of Music, The (1965)",15,0.0,0.0,0.0,evening,35_44,Musical
+917,918,304,"Ice Storm, The (1997)",26,0.0,0.0,0.0,afternoon,25_34,Drama
+918,919,346,Wag the Dog (1997),21,0.0,0.0,0.0,night,25_34,Comedy
+919,920,525,Ben-Hur (1959),22,0.0,0.0,0.0,morning,18_24,Action
+920,921,256,Men in Black (1997),2,1.0,0.5,1.0,evening,25_34,Action
+921,922,167,Monty Python and the Holy Grail (1974),5,1.0,0.3562071871080222,1.0,afternoon,18_24,Comedy
+922,923,128,Bound (1996),5,1.0,0.3562071871080222,1.0,afternoon,25_34,Crime
+923,924,4,Copycat (1995),16,0.0,0.0,0.0,evening,18_24,Crime
+924,925,257,Contact (1997),0,1.0,1.0,1.0,night,45_54,Drama
+925,926,741,Ransom (1996),0,1.0,1.0,1.0,evening,18_24,Drama
+926,927,245,Chasing Amy (1997),8,1.0,0.3010299956639812,1.0,night,18_24,Drama
+927,928,55,Pulp Fiction (1994),1,1.0,0.6309297535714575,1.0,afternoon,35_44,Crime
+928,929,708,Strictly Ballroom (1992),9,1.0,0.2890648263178879,1.0,evening,25_34,Comedy
+929,930,314,Apt Pupil (1998),8,1.0,0.3010299956639812,1.0,evening,55_plus,Drama
+930,931,356,One Flew Over the Cuckoo's Nest (1975),0,1.0,1.0,1.0,afternoon,55_plus,Drama
+931,932,185,"Blues Brothers, The (1980)",2,1.0,0.5,1.0,afternoon,25_34,Action
+932,933,152,"Fish Called Wanda, A (1988)",10,0.0,0.0,0.0,night,55_plus,Comedy
+933,934,845,To Gillian on Her 37th Birthday (1996),44,0.0,0.0,0.0,evening,35_44,Drama
+934,935,254,My Best Friend's Wedding (1997),4,1.0,0.38685280723454163,1.0,morning,18_24,Comedy
+935,936,294,Breakdown (1997),33,0.0,0.0,0.0,evening,45_54,Action
+936,937,224,101 Dalmatians (1996),28,0.0,0.0,0.0,afternoon,35_44,Children's
+937,938,1050,"Associate, The (1996)",29,0.0,0.0,0.0,morning,25_34,Comedy
+938,939,315,As Good As It Gets (1997),9,1.0,0.2890648263178879,1.0,evening,25_34,Comedy
+939,940,0,Toy Story (1995),1,1.0,0.6309297535714575,1.0,evening,18_24,Animation
+940,941,661,Somewhere in Time (1980),13,0.0,0.0,0.0,evening,45_54,Drama
+941,942,839,Last Man Standing (1996),26,0.0,0.0,0.0,evening,18_24,Action
